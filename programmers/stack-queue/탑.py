@@ -3,7 +3,6 @@
 answer 배열이 입력 크기만큼 0으로 초기화 되어 있기 때문에
 신호를 수신하는 탑은 고려하지 않아도 된다 !
 '''
-
 def solution(heights):
     leng = len(heights)
     answer = [0 for i in range(leng)]

@@ -12,6 +12,7 @@
 1. 스택 / 큐
     * [탑](https://github.com/wwlee94/algorithm-python/blob/master/programmers/stack-queue/탑.py)
     * [다리를 지나는 트럭](https://github.com/wwlee94/algorithm-python/blob/master/programmers/stack-queue/다리를지나는트럭.py)
+    * [기능개발](https://github.com/wwlee94/algorithm-python/blob/master/programmers/stack-queue/기능개발.py)
 2. 해쉬
     * [전화번호 목록](https://github.com/wwlee94/algorithm-python/blob/master/programmers/hash/전화번호목록.py)
     * [베스트 앨범](https://github.com/wwlee94/algorithm-python/blob/master/programmers/hash/베스트앨범.py)

@@ -14,6 +14,7 @@ def solution(prices):
     return answer
 
 # Tip: 스택을 사용하면 속도를 2배 더 줄일 수 있다.
+# deque의 popleft로 한번 연산으로 값 가져오는 속도 > prices[i]로 리스트에 접근하는 속도
 '''
 from collections import deque
 def solution(prices):

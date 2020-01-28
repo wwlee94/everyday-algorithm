@@ -9,6 +9,7 @@ min heap을 사용하면 원소들이 항상 정렬된 상태로 추가되고 �
 참고: https://www.daleseo.com/python-heapq
 '''
 import heapq
+
 def solution(scoville, K):
     count = 0
     leng = len(scoville)

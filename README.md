@@ -20,7 +20,8 @@
     * [전화번호 목록](https://github.com/wwlee94/algorithm-python/blob/master/programmers/hash/전화번호목록.py)
     * [베스트 앨범](https://github.com/wwlee94/algorithm-python/blob/master/programmers/hash/베스트앨범.py)
 3. 힙
-    * [더 맵게](https://github.com/wwlee94/algorithm-python/blob/master/programmers/hash/더맵게.py)
+    * [더 맵게](https://github.com/wwlee94/algorithm-python/blob/master/programmers/heap/더맵게.py)
+    * [라면 공장](https://github.com/wwlee94/algorithm-python/blob/master/programmers/heap/라면공장.py)
     
 ## 알고리즘 사이트
 * [프로그래머스](https://programmers.co.kr)

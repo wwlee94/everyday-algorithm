@@ -24,6 +24,7 @@
     * [라면 공장](https://github.com/wwlee94/algorithm-python/blob/master/programmers/heap/라면공장.py)
 4. 완전 탐색
     * [모의 고사](https://github.com/wwlee94/algorithm-python/blob/master/programmers/brute-force-search/모의고사.py)
+    * [소수 찾기](https://github.com/wwlee94/algorithm-python/blob/master/programmers/brute-force-search/소수찾기.py)
     
 ## 알고리즘 사이트
 * [프로그래머스](https://programmers.co.kr)

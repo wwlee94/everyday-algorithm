@@ -25,6 +25,11 @@
 4. 완전 탐색
     * [모의 고사](https://github.com/wwlee94/algorithm-python/blob/master/programmers/brute-force-search/모의고사.py)
     * [소수 찾기](https://github.com/wwlee94/algorithm-python/blob/master/programmers/brute-force-search/소수찾기.py)
+5. 정렬
+    * [K번째 수](https://github.com/wwlee94/algorithm-python/blob/master/programmers/sort/K번째수.py)
+    * [가장 큰 수](https://github.com/wwlee94/algorithm-python/blob/master/programmers/sort/가장큰수.py)
+6. 그리디
+    * [체육복](https://github.com/wwlee94/algorithm-python/blob/master/programmers/greedy/체육복.py)
     
 ## 알고리즘 사이트
 * [프로그래머스](https://programmers.co.kr)

@@ -30,6 +30,7 @@
     * [가장 큰 수](https://github.com/wwlee94/algorithm-python/blob/master/programmers/sort/가장큰수.py)
 6. 그리디
     * [체육복](https://github.com/wwlee94/algorithm-python/blob/master/programmers/greedy/체육복.py)
+    * [큰 수 만들기](https://github.com/wwlee94/algorithm-python/blob/master/programmers/greedy/큰수만들기.py)
     
 ## 알고리즘 사이트
 * [프로그래머스](https://programmers.co.kr)

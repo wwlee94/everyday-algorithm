@@ -32,6 +32,7 @@
     * [체육복](https://github.com/wwlee94/algorithm-python/blob/master/programmers/greedy/체육복.py)
     * [큰 수 만들기](https://github.com/wwlee94/algorithm-python/blob/master/programmers/greedy/큰수만들기.py)
     * [조이스틱](https://github.com/wwlee94/algorithm-python/blob/master/programmers/greedy/조이스틱.py)
+    * [구명보트](https://github.com/wwlee94/algorithm-python/blob/master/programmers/greedy/구명보트.py)
     
 ## 알고리즘 사이트
 * [프로그래머스](https://programmers.co.kr)

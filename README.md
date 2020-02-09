@@ -17,6 +17,7 @@
     * [쇠막대기](https://github.com/wwlee94/algorithm-python/blob/master/programmers/stack-queue/쇠막대기.py)
     * [주식가격](https://github.com/wwlee94/algorithm-python/blob/master/programmers/stack-queue/주식가격.py)
 2. 해쉬
+    * [완주하지 못한 선수](https://github.com/wwlee94/algorithm-python/blob/master/programmers/hash/완주하지못한선수.py)
     * [전화번호 목록](https://github.com/wwlee94/algorithm-python/blob/master/programmers/hash/전화번호목록.py)
     * [베스트 앨범](https://github.com/wwlee94/algorithm-python/blob/master/programmers/hash/베스트앨범.py)
 3. 힙
@@ -33,6 +34,8 @@
     * [큰 수 만들기](https://github.com/wwlee94/algorithm-python/blob/master/programmers/greedy/큰수만들기.py)
     * [조이스틱](https://github.com/wwlee94/algorithm-python/blob/master/programmers/greedy/조이스틱.py)
     * [구명보트](https://github.com/wwlee94/algorithm-python/blob/master/programmers/greedy/구명보트.py)
+7. DFS/BFS
+    * [타겟 넘버](https://github.com/wwlee94/algorithm-python/blob/master/programmers/dfs-bfs/타겟넘버.py)
     
 ## 알고리즘 사이트
 * [프로그래머스](https://programmers.co.kr)

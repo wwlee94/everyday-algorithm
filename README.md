@@ -10,35 +10,35 @@
 
 ### 프로그래머스
 1. 스택 / 큐
-    * [탑](https://github.com/wwlee94/algorithm-python/blob/master/programmers/stack-queue/탑.py)
-    * [다리를 지나는 트럭](https://github.com/wwlee94/algorithm-python/blob/master/programmers/stack-queue/다리를지나는트럭.py)
-    * [기능개발](https://github.com/wwlee94/algorithm-python/blob/master/programmers/stack-queue/기능개발.py)
-    * [프린터](https://github.com/wwlee94/algorithm-python/blob/master/programmers/stack-queue/프린터.py)
-    * [쇠막대기](https://github.com/wwlee94/algorithm-python/blob/master/programmers/stack-queue/쇠막대기.py)
-    * [주식가격](https://github.com/wwlee94/algorithm-python/blob/master/programmers/stack-queue/주식가격.py)
+    * [탑](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/stack-queue/탑.py)
+    * [다리를 지나는 트럭](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/stack-queue/다리를지나는트럭.py)
+    * [기능개발](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/stack-queue/기능개발.py)
+    * [프린터](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/stack-queue/프린터.py)
+    * [쇠막대기](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/stack-queue/쇠막대기.py)
+    * [주식가격](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/stack-queue/주식가격.py)
 2. 해쉬
-    * [완주하지 못한 선수](https://github.com/wwlee94/algorithm-python/blob/master/programmers/hash/완주하지못한선수.py)
-    * [전화번호 목록](https://github.com/wwlee94/algorithm-python/blob/master/programmers/hash/전화번호목록.py)
-    * [베스트 앨범](https://github.com/wwlee94/algorithm-python/blob/master/programmers/hash/베스트앨범.py)
-    * [위장](https://github.com/wwlee94/algorithm-python/blob/master/programmers/hash/위장.py)
+    * [완주하지 못한 선수](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/hash/완주하지못한선수.py)
+    * [전화번호 목록](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/hash/전화번호목록.py)
+    * [베스트 앨범](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/hash/베스트앨범.py)
+    * [위장](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/hash/위장.py)
 3. 힙
-    * [더 맵게](https://github.com/wwlee94/algorithm-python/blob/master/programmers/heap/더맵게.py)
-    * [라면 공장](https://github.com/wwlee94/algorithm-python/blob/master/programmers/heap/라면공장.py)
+    * [더 맵게](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/heap/더맵게.py)
+    * [라면 공장](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/heap/라면공장.py)
 4. 완전 탐색
-    * [모의 고사](https://github.com/wwlee94/algorithm-python/blob/master/programmers/brute-force-search/모의고사.py)
-    * [소수 찾기](https://github.com/wwlee94/algorithm-python/blob/master/programmers/brute-force-search/소수찾기.py)
+    * [모의 고사](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/brute-force-search/모의고사.py)
+    * [소수 찾기](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/brute-force-search/소수찾기.py)
 5. 정렬
-    * [K번째 수](https://github.com/wwlee94/algorithm-python/blob/master/programmers/sort/K번째수.py)
-    * [가장 큰 수](https://github.com/wwlee94/algorithm-python/blob/master/programmers/sort/가장큰수.py)
+    * [K번째 수](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/sort/K번째수.py)
+    * [가장 큰 수](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/sort/가장큰수.py)
 6. 그리디
-    * [체육복](https://github.com/wwlee94/algorithm-python/blob/master/programmers/greedy/체육복.py)
-    * [큰 수 만들기](https://github.com/wwlee94/algorithm-python/blob/master/programmers/greedy/큰수만들기.py)
-    * [조이스틱](https://github.com/wwlee94/algorithm-python/blob/master/programmers/greedy/조이스틱.py)
-    * [구명보트](https://github.com/wwlee94/algorithm-python/blob/master/programmers/greedy/구명보트.py)
+    * [체육복](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/greedy/체육복.py)
+    * [큰 수 만들기](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/greedy/큰수만들기.py)
+    * [조이스틱](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/greedy/조이스틱.py)
+    * [구명보트](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/greedy/구명보트.py)
 7. DFS/BFS
-    * [타겟 넘버](https://github.com/wwlee94/algorithm-python/blob/master/programmers/dfs-bfs/타겟넘버.py)
+    * [타겟 넘버](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/dfs-bfs/타겟넘버.py)
 8. 그래프
-    * [가장 먼 노드](https://github.com/wwlee94/algorithm-python/blob/master/programmers/graph/가장먼노드.py)
+    * [가장 먼 노드](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/graph/가장먼노드.py)
     
 ## 알고리즘 사이트
 * [프로그래머스](https://programmers.co.kr)

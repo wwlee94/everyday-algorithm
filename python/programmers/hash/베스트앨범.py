@@ -18,7 +18,7 @@ def solution(genres, plays):
     genre_sum = []
     genre_type = list(set(genres))
     
-    # plays[2] = 2500
+    # plays[2] = 500
     for _type in genre_type:
         play = []
         for idx, genre in enumerate(genres):

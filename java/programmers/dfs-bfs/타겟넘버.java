@@ -1,5 +1,5 @@
 /*
-* 🙆‍♂️ Created by wwlee94 on 2020.02.15
+* 🤷‍♂️ Created by wwlee94 on 2020.02.15
 https://programmers.co.kr/learn/courses/30/lessons/43165
 
 - Tip -

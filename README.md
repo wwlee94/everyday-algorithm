@@ -44,24 +44,25 @@
 ### 백준 알고리즘
 1. 플로이드 와샬 알고리즘
     * [플로이드](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/floyd-warshall/11404_플로이드.py)
-    
+
 ## Java
 ### 프로그래머스
 1. 해쉬
     * [완주하지 못한 선수](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/hash/완주하지못한선수.java)
 2. DFS/BFS
     * [타겟 넘버](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/dfs-bfs/타겟넘버.java)
+
 ## 알고리즘 사이트
 * [프로그래머스](https://programmers.co.kr)
 * [백준 알고리즘](https://www.acmicpc.net/)
 
-## Python 자료형 별 주요 연산자 시간 복잡도
+## 자료형 별 주요 연산자 시간 복잡도
 
 알고리즘 문제를 풀다 보면 시간복잡도를 생각해야 하는 경우가 종종 생긴다.  
 시간복잡도 기준이 있어서, 기준을 넘기지 못하면 문제를 풀어도 틀리는 경우가 생긴다.
 
-## list
-
+## Python
+### list
 | Operation | Example | Big-O | Notes |
 | --- | --- | --- | --- |
 | Index | l[i] | O(1) |   |
@@ -86,8 +87,7 @@
 | Sort | l.sort() | O(N Log N) |   |
 | Multiply | k*l | O(k N) | [1,2,3] * 3 » O(N**2) |
 
-## Dict
-
+### Dict
 | Operation | Example | Big-O | Notes |
 | --- | --- | --- | --- |
 | Index | d[k] | O(1) |   |
@@ -106,4 +106,41 @@
 <ul>
   <li><a href="https://wiki.python.org/moin/TimeComplexity">Python wiki’s Time Complexity</a></li>
   <li><a href="https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt">Complexity of Python Operations</a></li>
+</ul>
+
+## Java
+### LIST
+| Class Name | Add | Remove | Get | Contains | Iterator.remove |
+| --- | --- | --- | --- | --- | --- |
+| ArrayList | O(1) | O(n) | O(1) | O(n) | O(n) |
+| LinkedList | O(1) | O(1) | O(n) | O(n) | O(1) |
+
+### SET
+| Class Name | Add | Contains | Next |
+| --- | --- | --- | --- |
+| HashSet | O(1) | O(1) | O(h/n) - h는 테이블 용량 |
+| LinkedHashSet | O(1) | O(1) | O(1) |
+| EnumSet | O(1) | O(1) | O(1) |
+| TreeSet | O(log n) | O(log n) | O(log n) | 
+
+### Queue
+| Class Name | Offer | Peak | Poll | Size |
+| --- | --- | --- | --- | --- |
+| PriorityQueue | O(log n) | O(1) | O(log n) | O(1) |
+| LinkedList | O(1) | O(1) | O(1) | O(1) |
+| ArrayDequeue | O(1) | O(1) | O(1) | O(1) |
+| DelayQueue | O(log n) | O(1) | O(log n) | O(1) |
+
+### Map
+| Class Name | Get | ContainsKey | Next |
+| --- | --- | --- | --- |
+| HashMap | O(1) | O(1) | O(h/n) - h는 테이블 용량 |
+| LinkedHashMap | O(1) | O(1) | O(1) |
+| EnumMap | O(1) | O(1) | O(1) |
+| TreeMap | O(log n) | O(log n) | O(log n) | 
+
+### References (참고 사이트)
+<ul>
+  <li><a href="http://bigocheatsheet.com">Big-O Cheet Sheet</a></li>
+  <li><a href="http://infotechgems.blogspot.com/2011/11/java-collections-performance-time.html">Information Technology Gems: Java Collections – Performance (Time Complexity)</a></li>
 </ul>

@@ -1,13 +1,14 @@
-# 💻 algorithm-python
-매일 Python으로 푸는 알고리즘 문제 풀이 !
+# 💻 everyday-algorithm
+매일 Python, Java로 푸는 알고리즘 문제 !
 
-## 💁‍♂️ 나만의 Rule 정하기 !
+## 💁‍♂ 나만의 Rule 정하기 !
 * 하루에 최소 1개의 알고리즘 문제 풀기 
 * 못 푸는 문제라도 최대한 고민해보기
 * 누구나 보아도 이해 할 수 있는 코드와 풀이를 작성하려고 노력하기
 
 ## 👨‍💻 문제 풀이 및 코드
 
+## Python
 ### 프로그래머스
 1. 스택 / 큐
     * [탑](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/stack-queue/탑.py)
@@ -40,8 +41,19 @@
 8. 그래프
     * [가장 먼 노드](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/graph/가장먼노드.py)
     
+### 백준 알고리즘
+1. 플로이드 와샬 알고리즘
+    * [플로이드](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/floyd-warshall/11404_플로이드.py)
+    
+## Java
+### 프로그래머스
+1. 해쉬
+    * [완주하지 못한 선수](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/hash/완주하지못한선수.java)
+2. DFS/BFS
+    * [타겟 넘버](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/dfs-bfs/타겟넘버.java)
 ## 알고리즘 사이트
 * [프로그래머스](https://programmers.co.kr)
+* [백준 알고리즘](https://www.acmicpc.net/)
 
 ## Python 자료형 별 주요 연산자 시간 복잡도
 

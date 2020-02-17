@@ -59,6 +59,9 @@
 * [프로그래머스](https://programmers.co.kr)
 * [백준 알고리즘](https://www.acmicpc.net/)
 
+## 스터디
+* [이진 트리](https://github.com/wwlee94/algorithm-python/blob/master/python/study/이진트리탐색.py)
+
 ## 자료형 별 주요 연산자 시간 복잡도
 
 알고리즘 문제를 풀다 보면 시간복잡도를 생각해야 하는 경우가 종종 생긴다.  

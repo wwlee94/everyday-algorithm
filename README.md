@@ -41,6 +41,8 @@
 8. 그래프
     * [가장 먼 노드](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/graph/가장먼노드.py)
     * [순위](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/graph/순위.py)
+9. 이진 탐색
+    * [순위](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/binary-search/예산.py)
     
 ### 백준 알고리즘
 1. 플로이드 와샬 알고리즘

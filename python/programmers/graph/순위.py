@@ -9,6 +9,7 @@ https://programmers.co.kr/learn/courses/30/lessons/49191
 
 기존의 인접 행렬에서 각각의 노드를 거쳐가는 경우를 모두 갱신해주면 끝 ! 
 Tip: 방향이 존재한다고 가정하고 진행해야한다. -> 특정 정점을 거쳐간다면([i][k] -> [k][j]) 각각의 값이 1인 상태이어야 거쳐갈 수 있다는 뜻 ([i][k] + [k][j] == 2)
+score[i][j] == 0 -> 이 문제는 승자가 패자로 바뀌는 경우는 없으니 0인 부분만 위의 조건을 확인해주면 끝 !
 '''
 def solution(n, results):
     answer = 0
@@ -22,7 +23,7 @@ def solution(n, results):
         for i in range(n):
             for j in range(n):
                 if i==j: score[i][j] = 9999
-                if score[i][k] + score[k][j] == 2: # 1이 이동 할 수 있는 표시
+                if score[i][j] == 0 and score[i][k] + score[k][j] == 2: # 1이 이동 할 수 있는 표시
                     score[i][j] = 1 # i->j 이김
                     score[j][i] = -1 # j->i 짐
 

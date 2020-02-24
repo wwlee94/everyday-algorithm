@@ -31,6 +31,7 @@
 5. 정렬
     * [K번째 수](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/sort/K번째수.py)
     * [가장 큰 수](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/sort/가장큰수.py)
+    * [H-index](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/sort/H-index.py)
 6. 그리디
     * [체육복](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/greedy/체육복.py)
     * [큰 수 만들기](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/greedy/큰수만들기.py)
@@ -46,7 +47,7 @@
     
 ### 백준 알고리즘
 1. 그리디
-    * [플로이드](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/greedy/1931_미팅룸.py)
+    * [미팅룸](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/greedy/1931_미팅룸.py)
 2. 플로이드 와샬
     * [플로이드](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/floyd-warshall/11404_플로이드.py)
 

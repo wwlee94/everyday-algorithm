@@ -43,7 +43,7 @@
     * [가장 먼 노드](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/graph/가장먼노드.py)
     * [순위](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/graph/순위.py)
 9. 이진 탐색
-    * [순위](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/binary-search/예산.py)
+    * [예산](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/binary-search/예산.py)
     
 ### 백준 알고리즘
 1. 그리디
@@ -59,6 +59,8 @@
     * [타겟 넘버](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/dfs-bfs/타겟넘버.java)
 3. 그래프
     * [순위](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/graph/순위.java)
+4. 정렬
+    * [H-index](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/sort/H-index.java)
 
 ## 알고리즘 사이트
 * [프로그래머스](https://programmers.co.kr)

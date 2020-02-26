@@ -9,6 +9,7 @@ https://programmers.co.kr/learn/courses/30/lessons/42841
         Integer[] myArray = choosed.stream().toArray(Integer[]::new);
     2. Primitive Array로 만들 때
         int[] myArray = choosed.stream().mapToInt(x->x).toArray();
+
 * Array to Collection
     1. Wrapper Class Array일 때
         Integer[] myArray = new Integer[10];
@@ -35,7 +36,6 @@ class Solution {
         int[] number = {1,2,3,4,5,6,7,8,9};
         permutations(number, 3);
         
-        // for(int[] myInt: all_case) System.out.println(Arrays.toString(myInt));
         for (int[] cases: all_case){
             int count = 0; //질문을 만족한 개수 (strike, ball)
             for (int[] item: baseball){

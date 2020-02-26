@@ -3,7 +3,20 @@
 https://programmers.co.kr/learn/courses/30/lessons/42841?language=python3
 
 - 문제 풀이 접근법 -
-*작성할 것
+* 문제에서 주어지는 질문과 일치하는 숫자를 찾는 것이기 때문에 1~9 사이 숫자로 만들 수 있는 3자리 순열을 생성해서 주어진 질문의 숫자와 비교해서 strike, ball을 구하면 됨 !
+
+- 기존 풀이 -
+1. question을 구하는 다른 방법 (자리 수가 늘어나는 경우엔 작성하기 귀찮아짐)
+question = [item[0] // 100, item[0] % 100 // 10, item[0] % 10]
+
+2. strike, ball을 구하는 다른 방법 (첫번째 방법보다 조금 비효율적?)
+# 2중 for문으로 strike, ball 구한 것 
+    for i in range(3):
+        for j in range(3):
+            if i==j and case[i] == question[j]: strike += 1
+            elif case[i] == question[j]: ball += 1
+    if item[1] != strike or item[2] != ball: break
+    else: count += 1
 '''
 import itertools
 
@@ -16,7 +29,6 @@ def solution(baseball):
         count = 0 # 질문을 만족한 개수
         for item in baseball:
             strike = 0
-            # question = [item[0] // 100, item[0] % 100 // 10, item[0] % 10]
             question = [int(i) for i in str(item[0])]
 
             #첫번째 방법 - strike 개수 우선 구한 후 ball 개수 구함
@@ -28,14 +40,6 @@ def solution(baseball):
             if item[2] != ball: break
                 
             count += 1
-            
-            # 두번째 방법(원래 풀이) - 2중 for문으로 strike, ball 구한 것
-            # for i in range(3):
-            #     for j in range(3):
-            #         if i==j and case[i] == question[j]: strike += 1
-            #         elif case[i] == question[j]: ball += 1
-            # if item[1] != strike or item[2] != ball: break
-            # else: count += 1
                 
         if count == leng: answer += 1 # 질문 개수 만큼 돌아야 조건을 모두 만족한 경우이기 때문
     return answer

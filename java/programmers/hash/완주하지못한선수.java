@@ -19,7 +19,6 @@ https://programmers.co.kr/learn/courses/30/lessons/42576
 
 // 더 간단한 코드 !
 import java.util.HashMap;
-
 class Solution {
     public String solution(String[] participant, String[] completion) {
         String answer = "";

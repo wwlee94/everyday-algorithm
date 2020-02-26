@@ -69,7 +69,7 @@
 * [프로그래머스](https://programmers.co.kr)
 * [백준 알고리즘](https://www.acmicpc.net/)
 
-## 스터디
+## 자료 구조
 * [이진 트리](https://github.com/wwlee94/algorithm-python/blob/master/python/study/이진트리탐색.py)
 
 ## 자료형 별 주요 연산자 시간 복잡도

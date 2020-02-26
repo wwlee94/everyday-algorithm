@@ -2,13 +2,13 @@
 * 🙆‍♂️ Created by wwlee94 on 2020.02.13
 https://programmers.co.kr/learn/courses/30/lessons/49191
 
-- Java JDK 8 버전의 Stream 모듈 사용
+- Java JDK 8 버전의 Stream 모듈 사용 -
 1. Java 8 - String Array일 때
     boolean result = Arrays.stream(alphabet).anyMatch("A"::equals);
 2. Java 8 - Primitive Array일 때
     boolean result = IntStream.of(s).anyMatch(x -> x == 0);
 
-- 2차원 배열 출력문 
+- 2차원 배열 출력문 -
     for(int[] array: score){ 
         for(int x: array) 
             System.out.print(x+" ");

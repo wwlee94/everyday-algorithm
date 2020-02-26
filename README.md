@@ -28,6 +28,7 @@
 4. 완전 탐색
     * [모의 고사](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/brute-force-search/모의고사.py)
     * [소수 찾기](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/brute-force-search/소수찾기.py)
+    * [숫자 야구](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/brute-force-search/숫자야구.py)
 5. 정렬
     * [K번째 수](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/sort/K번째수.py)
     * [가장 큰 수](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/sort/가장큰수.py)
@@ -55,12 +56,14 @@
 ### 프로그래머스
 1. 해쉬
     * [완주하지 못한 선수](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/hash/완주하지못한선수.java)
-2. DFS/BFS
-    * [타겟 넘버](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/dfs-bfs/타겟넘버.java)
-3. 그래프
-    * [순위](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/graph/순위.java)
-4. 정렬
+2. 완전 탐색
+    * [숫자 야구](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/brute-force-search/숫자야구.java)
+3. 정렬
     * [H-index](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/sort/H-index.java)
+4. DFS/BFS
+    * [타겟 넘버](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/dfs-bfs/타겟넘버.java)
+5. 그래프
+    * [순위](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/graph/순위.java)
 
 ## 알고리즘 사이트
 * [프로그래머스](https://programmers.co.kr)

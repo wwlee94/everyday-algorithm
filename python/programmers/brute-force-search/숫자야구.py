@@ -3,13 +3,15 @@
 https://programmers.co.kr/learn/courses/30/lessons/42841?language=python3
 
 - 문제 풀이 접근법 -
-* 문제에서 주어지는 질문과 일치하는 숫자를 찾는 것이기 때문에 1~9 사이 숫자로 만들 수 있는 3자리 순열을 생성해서 주어진 질문의 숫자와 비교해서 strike, ball을 구하면 됨 !
+1. 문제에서 주어지는 질문과 일치하는 숫자를 찾는 것이기 때문에 1~9 사이 숫자로 만들 수 있는 3자리 순열을 생성함
+2. 주어진 질문과 비교해서 strike, ball을 구함
+3. 어떠한 3자리 수가 주어진 질문과 모두 일치 한다면 그 숫자는 정답 가능성이 있는 숫자이므로 answer += 1 해줌 !
 
 - 기존 풀이 -
-1. question을 구하는 다른 방법 (자리 수가 늘어나는 경우엔 작성하기 귀찮아짐)
+1. question을 구하는 다른 방법 (But, 자리 수가 늘어나는 경우엔 작성하기 귀찮아짐)
 question = [item[0] // 100, item[0] % 100 // 10, item[0] % 10]
 
-2. strike, ball을 구하는 다른 방법 (첫번째 방법보다 조금 비효율적?)
+2. strike, ball을 구하는 다른 방법 (But, 첫번째 방법보다 조금 비효율적?)
 # 2중 for문으로 strike, ball 구한 것 
     for i in range(3):
         for j in range(3):

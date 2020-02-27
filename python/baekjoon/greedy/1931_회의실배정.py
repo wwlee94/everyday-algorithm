@@ -1,3 +1,5 @@
+# https://www.acmicpc.net/problem/1931
+
 N = int(input())
 TIME = [list(map(int, input().split())) for i in range(N)]
 RESULT = []

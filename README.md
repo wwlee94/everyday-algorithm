@@ -1,12 +1,12 @@
 # 💻 everyday-algorithm
 매일 Python, Java로 푸는 알고리즘 문제 !
 
-## 💁‍♂ 나만의 Rule 정하기 !
+## 💁🏻‍♂️ 나만의 Rule 정하기 !
 * 하루에 최소 1개의 알고리즘 문제 풀기 
 * 못 푸는 문제라도 최대한 고민해보기
 * 누구나 보아도 이해 할 수 있는 코드와 풀이를 작성하려고 노력하기
 
-## 👨‍💻 문제 풀이 및 코드
+## 👨🏻‍💻 문제 풀이 및 코드
 
 ## Python
 ### 프로그래머스
@@ -48,7 +48,8 @@
     
 ### 백준 알고리즘
 1. 그리디
-    * [미팅룸](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/greedy/1931_미팅룸.py)
+    * [회의실 배정](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/greedy/1931_회의실배정.py)
+    * [로프](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/greedy/2217_로프.py)
 2. 플로이드 와샬
     * [플로이드](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/floyd-warshall/11404_플로이드.py)
 

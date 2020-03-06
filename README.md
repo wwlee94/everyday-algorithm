@@ -29,6 +29,7 @@
     * [모의 고사](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/brute-force-search/모의고사.py)
     * [소수 찾기](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/brute-force-search/소수찾기.py)
     * [숫자 야구](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/brute-force-search/숫자야구.py)
+    * [카펫](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/brute-force-search/카펫.py)
 5. 정렬
     * [K번째 수](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/sort/K번째수.py)
     * [가장 큰 수](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/sort/가장큰수.py)

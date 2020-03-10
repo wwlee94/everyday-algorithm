@@ -25,6 +25,7 @@
 3. 힙
     * [더 맵게](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/heap/더맵게.py)
     * [라면 공장](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/heap/라면공장.py)
+    * [디스크 컨트롤러](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/heap/디스크컨트롤러.py)
 4. 완전 탐색
     * [모의 고사](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/brute-force-search/모의고사.py)
     * [소수 찾기](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/brute-force-search/소수찾기.py)

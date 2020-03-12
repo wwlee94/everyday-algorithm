@@ -1,5 +1,7 @@
 '''
 * 🙆‍♂️ Created by wwlee94 on 2020.01.09
+https://programmers.co.kr/learn/courses/30/lessons/42588
+
 answer 배열이 입력 크기만큼 0으로 초기화 되어 있기 때문에
 신호를 수신하는 탑은 고려하지 않아도 된다 !
 '''

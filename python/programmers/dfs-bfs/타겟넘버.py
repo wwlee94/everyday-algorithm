@@ -1,5 +1,6 @@
 '''
 * 🤷‍♂️ Created by wwlee94 on 2020.02.07
+https://programmers.co.kr/learn/courses/30/lessons/43165
 
 - 문제 풀이 접근 - 
 '+', '-' 연산 두가지 방법을 선택해 리스트의 합이 target과 같은 값을 출력하는 경우를 카운트 하는 문제

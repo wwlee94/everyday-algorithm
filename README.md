@@ -62,14 +62,16 @@
 ### 프로그래머스
 1. 해쉬
     * [완주하지 못한 선수](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/hash/완주하지못한선수.java)
-2. 완전 탐색
+2. 힙
+    * [디스크 컨트롤러](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/heap/디스크컨트롤러.java)
+3. 완전 탐색
     * [숫자 야구](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/brute-force-search/숫자야구.java)
     * [카펫](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/brute-force-search/카펫.java)
-3. 정렬
+4. 정렬
     * [H-index](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/sort/H-index.java)
-4. DFS/BFS
+5. DFS/BFS
     * [타겟 넘버](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/dfs-bfs/타겟넘버.java)
-5. 그래프
+6. 그래프
     * [순위](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/graph/순위.java)
 
 ## 알고리즘 사이트

@@ -1,4 +1,5 @@
 # https://www.acmicpc.net/problem/1946
+# Check 할 것
 
 T = int(input())
 result = []

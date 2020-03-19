@@ -66,6 +66,7 @@
     * [완주하지 못한 선수](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/hash/완주하지못한선수.java)
 2. 힙
     * [디스크 컨트롤러](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/heap/디스크컨트롤러.java)
+    * [이중 우선순위 큐](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/heap/이중우선순위큐.java)
 3. 완전 탐색
     * [숫자 야구](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/brute-force-search/숫자야구.java)
     * [카펫](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/brute-force-search/카펫.java)

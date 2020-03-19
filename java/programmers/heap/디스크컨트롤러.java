@@ -12,7 +12,7 @@ add, remove, element -> 큐가 비어있으면 예외 발생
 
 - 번외 -
 - Array를 첫번째 또는 두번째 Element로 정렬하기 -
-1. 첫번째 또는 두번째 Element로 정렬하기
+1. 첫번째 또는 두번째 Element로 정렬하기 -> ? 이것 말고 List 자체에 sort 있음
 Arrays.sort(arr, Comparator.comparing(o1 -> o1[0]));
 Arrays.sort(arr, Comparator.comparing(o1 -> o1[1]));
 

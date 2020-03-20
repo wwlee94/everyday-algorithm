@@ -24,6 +24,20 @@ Arrays.sort(arr, (o1, o2) -> {
         return Integer.compare(o1[0], o2[0]);
     }
 });
+
+3. 'Comparable'안에는 int compareTo(T a) 라는 단 하나의 interface 메소드만 존제한다.
+* a.compareTo(b);
+
+이 메소드에 대한 설명은 아래와 같으며 리턴값을 3가지로 분류하고 있다.
+parameter보다 작은 경우 음수를 리턴
+parameter와 같은 경우 0을 리턴
+parameter보다 큰 경우 양수를 리턴
+
+4. Comparable vs Comparator
+Comparable - 기본적으로 적용되는 정렬 기준이 되는 메서드를 정의하는 인터페이스
+Ex) Arrays.sort(내가 구현한 어떤 클래스);
+Comparator - 기본 정렬 기준과 다르게 정렬 하고 싶을 때 사용하는 인터페이스
+Ex) Arrays.sort(내가 구현한 어떤 클래스, myComparator)
 */
 import java.util.*;
 class Solution {

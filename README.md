@@ -1,15 +1,19 @@
 # 💻 everyday-algorithm
+
 매일 Python, Java로 푸는 알고리즘 문제 !
 
 ## 💁🏻‍♂️ 나만의 Rule 정하기 !
-* 하루에 최소 1개의 알고리즘 문제 풀기 
+
+* 하루에 최소 1개의 알고리즘 문제 풀기
 * 못 푸는 문제라도 최대한 고민해보기
 * 누구나 보아도 이해 할 수 있는 코드와 풀이를 작성하려고 노력하기
 
 ## 👨🏻‍💻 문제 풀이 및 코드
 
 ## Python
+
 ### 프로그래머스
+
 1. 스택 / 큐
     * [탑](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/stack-queue/탑.py)
     * [다리를 지나는 트럭](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/stack-queue/다리를지나는트럭.py)
@@ -47,8 +51,9 @@
     * [순위](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/graph/순위.py)
 9. 이진 탐색
     * [예산](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/binary-search/예산.py)
-    
+
 ### 백준 알고리즘
+
 1. 그리디
     * [회의실 배정](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/greedy/1931_회의실배정.py)
     * [로프](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/greedy/2217_로프.py)
@@ -61,7 +66,9 @@
     * [플로이드](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/floyd-warshall/11404_플로이드.py)
 
 ## Java
+
 ### 프로그래머스
+
 1. 해쉬
     * [완주하지 못한 선수](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/hash/완주하지못한선수.java)
 2. 힙
@@ -78,10 +85,12 @@
     * [순위](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/graph/순위.java)
 
 ## 알고리즘 사이트
+
 * [프로그래머스](https://programmers.co.kr)
 * [백준 알고리즘](https://www.acmicpc.net)
 
 ## 자료 구조
+
 * [이진 트리](https://github.com/wwlee94/algorithm-python/blob/master/python/study/이진트리탐색.py)
 
 ## 자료형 별 주요 연산자 시간 복잡도
@@ -90,7 +99,9 @@
 시간복잡도 기준이 있어서, 기준을 넘기지 못하면 문제를 풀어도 틀리는 경우가 생긴다.
 
 ## Python
+
 ### list
+
 | Operation | Example | Big-O | Notes |
 | --- | --- | --- | --- |
 | Index | l[i] | O(1) |   |
@@ -116,6 +127,7 @@
 | Multiply | k*l | O(k N) | [1,2,3] * 3 » O(N**2) |
 
 ### Dict
+
 | Operation | Example | Big-O | Notes |
 | --- | --- | --- | --- |
 | Index | d[k] | O(1) |   |
@@ -131,19 +143,23 @@
 | Iteration | for k in d: | O(N) |   |
 
 ### References (참고 사이트)
+
 <ul>
   <li><a href="https://wiki.python.org/moin/TimeComplexity">Python wiki’s Time Complexity</a></li>
   <li><a href="https://www.ics.uci.edu/~pattis/ICS-33/lectures/complexitypython.txt">Complexity of Python Operations</a></li>
 </ul>
 
 ## Java
+
 ### LIST
+
 | Class Name | Add | Remove | Get | Contains | Iterator.remove |
 | --- | --- | --- | --- | --- | --- |
 | ArrayList | O(1) | O(n) | O(1) | O(n) | O(n) |
 | LinkedList | O(1) | O(1) | O(n) | O(n) | O(1) |
 
 ### SET
+
 | Class Name | Add | Contains | Next |
 | --- | --- | --- | --- |
 | HashSet | O(1) | O(1) | O(h/n) - h는 테이블 용량 |
@@ -152,6 +168,7 @@
 | TreeSet | O(log n) | O(log n) | O(log n) | 
 
 ### Queue
+
 | Class Name | Offer | Peak | Poll | Size |
 | --- | --- | --- | --- | --- |
 | PriorityQueue | O(log n) | O(1) | O(log n) | O(1) |
@@ -160,6 +177,7 @@
 | DelayQueue | O(log n) | O(1) | O(log n) | O(1) |
 
 ### Map
+
 | Class Name | Get | ContainsKey | Next |
 | --- | --- | --- | --- |
 | HashMap | O(1) | O(1) | O(h/n) - h는 테이블 용량 |
@@ -168,6 +186,7 @@
 | TreeMap | O(log n) | O(log n) | O(log n) | 
 
 ### References (참고 사이트)
+
 <ul>
   <li><a href="http://bigocheatsheet.com">Big-O Cheet Sheet</a></li>
   <li><a href="http://infotechgems.blogspot.com/2011/11/java-collections-performance-time.html">Information Technology Gems: Java Collections – Performance (Time Complexity)</a></li>

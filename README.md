@@ -74,6 +74,7 @@
 1. 해쉬
     * [완주하지 못한 선수](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/hash/완주하지못한선수.java)
     * [전화번호 목록](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/hash/전화번호목록.java)
+    * [위장](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/hash/위장.java)
 2. 힙
     * [디스크 컨트롤러](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/heap/디스크컨트롤러.java)
     * [이중 우선순위 큐](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/heap/이중우선순위큐.java)

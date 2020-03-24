@@ -62,7 +62,9 @@
     * [신입 사원](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/greedy/1946_신입사원.py)
     * [대회 or 인턴](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/greedy/2875_대회or인턴.py)
     * [문자열](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/greedy/1120_문자열.py)
-2. 플로이드 와샬
+2. 탐색
+    * [한수](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/search/1065_한수.py)
+3. 플로이드 와샬
     * [플로이드](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/floyd-warshall/11404_플로이드.py)
 
 ## Java

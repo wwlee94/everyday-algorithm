@@ -71,21 +71,23 @@
 
 ### 프로그래머스
 
-1. 해쉬
+1. 스택 / 큐 
+    * [탑](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/stack-queue/탑.java)
+2. 해쉬
     * [완주하지 못한 선수](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/hash/완주하지못한선수.java)
     * [전화번호 목록](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/hash/전화번호목록.java)
     * [위장](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/hash/위장.java)
-2. 힙
+3. 힙
     * [디스크 컨트롤러](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/heap/디스크컨트롤러.java)
     * [이중 우선순위 큐](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/heap/이중우선순위큐.java)
-3. 완전 탐색
+4. 완전 탐색
     * [숫자 야구](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/brute-force-search/숫자야구.java)
     * [카펫](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/brute-force-search/카펫.java)
-4. 정렬
+5. 정렬
     * [H-index](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/sort/H-index.java)
-5. DFS/BFS
+6. DFS/BFS
     * [타겟 넘버](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/dfs-bfs/타겟넘버.java)
-6. 그래프
+7. 그래프
     * [순위](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/graph/순위.java)
 
 ## 알고리즘 사이트

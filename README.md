@@ -64,6 +64,7 @@
     * [문자열](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/greedy/1120_문자열.py)
 2. 탐색
     * [한수](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/search/1065_한수.py)
+    * [수열의 합](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/search/1024_수열의합.py)
 3. 플로이드 와샬
     * [플로이드](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/floyd-warshall/11404_플로이드.py)
 

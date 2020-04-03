@@ -66,6 +66,7 @@
     * [한수](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/search/1065_한수.py)
     * [수열의 합](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/search/1024_수열의합.py)
     * [보물](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/search/1026_보물.py)
+    * [트리](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/search/1028_트리.py)
 3. 플로이드 와샬
     * [플로이드](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/floyd-warshall/11404_플로이드.py)
 

@@ -71,8 +71,12 @@
 3. 플로이드 와샬
     * [플로이드](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/floyd-warshall/11404_플로이드.py)
 
+### 연습문제
+* [2016년](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/2016년.py)
+
 ### 2019 카카오 코딩 테스트
 * [크레인 인형뽑기 게임](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2019-KAKAO/크레인인형뽑기게임.py)
+
 ### 2019 라인 코딩 테스트
 * [코니와 브라운의 술래잡기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2019-LINE/코니와브라운의술래잡기.py)
 

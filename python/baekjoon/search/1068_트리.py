@@ -1,4 +1,4 @@
-# # https://www.acmicpc.net/problem/1068
+# https://www.acmicpc.net/problem/1068
 import sys
 
 input_s = lambda: sys.stdin.readline()

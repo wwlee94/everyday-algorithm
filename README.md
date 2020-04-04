@@ -67,10 +67,11 @@
     * [수열의 합](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/search/1024_수열의합.py)
     * [보물](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/search/1026_보물.py)
     * [트리](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/search/1028_트리.py)
+    * [하얀 칸](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/search/1100_하얀칸.py)
 3. 플로이드 와샬
     * [플로이드](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/floyd-warshall/11404_플로이드.py)
 
-### 2019 카카로 코딩 테스트
+### 2019 카카오 코딩 테스트
 * [크레인 인형뽑기 게임](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2019-KAKAO/크레인인형뽑기게임.py)
 ### 2019 라인 코딩 테스트
 * [코니와 브라운의 술래잡기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2019-LINE/코니와브라운의술래잡기.py)

@@ -78,6 +78,7 @@
     * [가운데 글자 가져오기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-1/가운데글자가져오기.py)
     * [나누어 떨어지는 숫자 배열](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-1/나누어떨어지는숫자배열.py)
     * [두 정수 사이의 합](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-1/두정수사이의합.py)
+    * [문자열 내 마음대로 정렬하기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-1/문자열내마음대로정렬하기.py)
 2. LEVEL 2
     * [멀쩡한 사각형](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/멀쩡한사각형.py)
 

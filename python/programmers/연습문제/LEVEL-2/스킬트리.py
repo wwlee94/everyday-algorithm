@@ -13,11 +13,31 @@ def solution(skill, skill_trees):
     for skill_tree in skill_trees: 
         pre_idx = [] 
         for i in range(len(skill)): 
-            if skill_tree.find(skill[i]) == -1: 
+            idx = skill_tree.find(skill[i])
+            if idx == -1: 
                 pre_idx.append(30) # 핵심 1
             else: 
-                pre_idx.append(skill_tree.find(skill[i])) 
+                pre_idx.append(idx) 
 
         if sorted(pre_idx) == pre_idx: # 핵심 2
             answer += 1 
     return answer
+
+# 다른 간결한 풀이
+# for-else는 중간에 break 등으로 끊기지 않고 끝까지 수행되면 else문이 실행되는 loop
+'''
+def solution(skill, skill_trees):
+    answer = 0
+
+    for skills in skill_trees:
+        skill_list = list(skill)
+
+        for s in skills:
+            if s in skill:
+                if s != skill_list.pop(0):
+                    break
+        else:
+            answer += 1
+
+    return answer
+'''

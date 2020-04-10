@@ -80,7 +80,8 @@
     * [두 정수 사이의 합](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-1/두정수사이의합.py)
     * [문자열 내 마음대로 정렬하기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-1/문자열내마음대로정렬하기.py)
     * [소수 찾기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-1/소수찾기.py)
-
+    * [문자열 내 p와y의 개수](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-1/문자열내p와y의개수.py)
+    
 2. LEVEL 2
     * [멀쩡한 사각형](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/멀쩡한사각형.py)
     * [스킬 트리](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/스킬트리.py)

@@ -85,7 +85,11 @@
 2. LEVEL 2
     * [멀쩡한 사각형](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/멀쩡한사각형.py)
     * [스킬 트리](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/스킬트리.py)
-    * [문자열 압축](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/문자열압축.py)
+
+### 2020 카카오 코딩 테스트
+1. LEVEL 2
+    * [문자열 압축](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2020-KAKAO/LEVEL-2/문자열압축.py)
+    * [괄호 변환](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2020-KAKAO/LEVEL-2/괄호변환.py)
 
 ### 2019 카카오 코딩 테스트
 * [크레인 인형뽑기 게임](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2019-KAKAO/크레인인형뽑기게임.py)

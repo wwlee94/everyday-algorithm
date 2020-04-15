@@ -68,7 +68,9 @@
     * [보물](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/search/1026_보물.py)
     * [트리](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/search/1028_트리.py)
     * [하얀 칸](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/search/1100_하얀칸.py)
-3. 플로이드 와샬
+3. DFS/BFS
+    * [DFS / BFS](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/dfs-bfs/1260_DFS_BFS.py)
+4. 플로이드 와샬
     * [플로이드](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/floyd-warshall/11404_플로이드.py)
 
 ### 프로그래머스 연습문제

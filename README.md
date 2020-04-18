@@ -89,6 +89,7 @@
 2. LEVEL 2
     * [멀쩡한 사각형](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/멀쩡한사각형.py)
     * [스킬 트리](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/스킬트리.py)
+    * [가장 큰 정사각형](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/가장큰정사각형.py)
 
 ### 2020 카카오 코딩 테스트
 1. LEVEL 2

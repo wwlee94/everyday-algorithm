@@ -70,6 +70,7 @@
     * [하얀 칸](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/search/1100_하얀칸.py)
 3. DFS/BFS
     * [DFS / BFS](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/dfs-bfs/1260_DFS_BFS.py)
+    * [연결 요소의 개수](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/dfs-bfs/11724_연결요소의개수.py)
 4. 플로이드 와샬
     * [플로이드](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/floyd-warshall/11404_플로이드.py)
 

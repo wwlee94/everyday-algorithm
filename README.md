@@ -105,6 +105,9 @@
 ### 2019 라인 코딩 테스트
 * [코니와 브라운의 술래잡기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2019-LINE/코니와브라운의술래잡기.py)
 
+### 2018 윈터 코딩 테스트
+* [예산](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2018-WinterCoding/예산.py)
+
 ## Java
 
 ### 프로그래머스

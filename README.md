@@ -86,6 +86,7 @@
     * [문자열 내 p와y의 개수](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-1/문자열내p와y의개수.py)
     * [시저 암호](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-1/시저암호.py)
     * [이상한 문자 만들기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-1/이상한문자만들기.py)
+    * [핸드폰 번호 가리기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-1/핸드폰번호가리기.py)
     
 2. LEVEL 2
     * [멀쩡한 사각형](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/멀쩡한사각형.py)

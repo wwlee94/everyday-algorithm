@@ -104,6 +104,7 @@
 
 ### 2018 카카오 코딩 테스트
 * [비밀 지도](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2018-KAKAO/비밀지도.py)
+* [다트 게임](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2018-KAKAO/다트게임.py)
 
 ### 2019 라인 코딩 테스트
 * [코니와 브라운의 술래잡기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2019-LINE/코니와브라운의술래잡기.py)

@@ -101,6 +101,7 @@
 
 ### 2019 카카오 코딩 테스트
 * [크레인 인형뽑기 게임](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2019-KAKAO/크레인인형뽑기게임.py)
+* [실패율](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2019-KAKAO/실패율.py)
 
 ### 2018 카카오 코딩 테스트
 * [비밀 지도](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2018-KAKAO/비밀지도.py)

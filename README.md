@@ -94,6 +94,7 @@
     * [멀쩡한 사각형](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/멀쩡한사각형.py)
     * [스킬 트리](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/스킬트리.py)
     * [가장 큰 정사각형](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/가장큰정사각형.py)
+    * [올바른 괄호](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/올바른괄호.py)
 
 ### 2020 카카오 코딩 테스트
 * [문자열 압축](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2020-KAKAO/LEVEL-2/문자열압축.py)

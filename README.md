@@ -97,6 +97,7 @@
     * [가장 큰 정사각형](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/가장큰정사각형.py)
     * [올바른 괄호](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/올바른괄호.py)
     * [땅따먹기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/땅따먹기.py)
+    * [숫자의 표현](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/숫자의표현.py)
 
 ### 2020 카카오 코딩 테스트
 * [문자열 압축](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2020-KAKAO/LEVEL-2/문자열압축.py)

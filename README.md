@@ -73,6 +73,7 @@
     * [연결 요소의 개수](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/dfs-bfs/11724_연결요소의개수.py)
     * [경로 찾기](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/dfs-bfs/11403_경로찾기.py)
     * [유기농 배추](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/dfs-bfs/1012_유기농배추.py)
+    * [알파벳](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/dfs-bfs/1987_알파벳.py)
 4. 플로이드 와샬
     * [플로이드](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/floyd-warshall/11404_플로이드.py)
 

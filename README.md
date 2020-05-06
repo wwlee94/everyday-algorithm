@@ -100,6 +100,7 @@
     * [땅따먹기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/땅따먹기.py)
     * [숫자의 표현](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/숫자의표현.py)
     * [행렬의 곱셈](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/행렬의곱셈.py)
+    * [최소값 만들기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/최소값만들기.py)
 
 ### 2020 카카오 코딩 테스트
 * [문자열 압축](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2020-KAKAO/LEVEL-2/문자열압축.py)

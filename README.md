@@ -147,6 +147,12 @@
 7. 그래프
     * [순위](https://github.com/wwlee94/algorithm-python/blob/master/java/programmers/graph/순위.java)
 
+## JavaScript
+
+### 다양한 메서드 사용법 정리
+* [자바 스크립트](https://github.com/wwlee94/algorithm-python/blob/master/javascript)
+
+
 ## 알고리즘 사이트
 
 * [프로그래머스](https://programmers.co.kr)

@@ -8,6 +8,9 @@
 * 못 푸는 문제라도 최대한 고민해보기
 * 누구나 보아도 이해 할 수 있는 코드와 풀이를 작성하려고 노력하기
 
+## 스터디 정리
+* [알고리즘 정리](https://github.com/wwlee94/algorithm-python/blob/master/python/study/README.md)
+
 ## 👨🏻‍💻 문제 풀이 및 코드
 
 ## Python
@@ -101,6 +104,7 @@
     * [숫자의 표현](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/숫자의표현.py)
     * [행렬의 곱셈](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/행렬의곱셈.py)
     * [최소값 만들기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/최소값만들기.py)
+    * [N개의 최소공배수](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/N개의최소공배수.py)
 
 ### 2020 카카오 코딩 테스트
 * [문자열 압축](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2020-KAKAO/LEVEL-2/문자열압축.py)
@@ -157,10 +161,6 @@
 
 * [프로그래머스](https://programmers.co.kr)
 * [백준 알고리즘](https://www.acmicpc.net)
-
-## 자료 구조
-
-* [이진 트리](https://github.com/wwlee94/algorithm-python/blob/master/python/study/이진트리탐색.py)
 
 ## 자료형 별 주요 연산자 시간 복잡도
 

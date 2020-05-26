@@ -30,6 +30,8 @@
 
 * [플로이드 와샬](https://github.com/wwlee94/algorithm-python/blob/master/python/study/15-플로이드와샬.py)
 
+* [위상 정렬](https://github.com/wwlee94/algorithm-python/blob/master/python/study/16-위상정렬.py)
+
 ### 트리
 * [이진 트리 탐색](https://github.com/wwlee94/algorithm-python/blob/master/python/study/12-이진트리.py)
 

@@ -126,6 +126,9 @@
 
 ### 2018 윈터 코딩 테스트
 * [예산](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2018-WinterCoding/예산.py)
+* [소수 만들기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2018-WinterCoding/소수만들기.py)
+* [영어 끝말잇기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2018-WinterCoding/영어끝말잇기.py)
+* [점프와 순간이동](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2018-WinterCoding/점프와순간이동.py)
 
 ## Java
 

@@ -35,13 +35,15 @@
 ### 트리
 * [이진 트리 탐색](https://github.com/wwlee94/algorithm-python/blob/master/python/study/12-이진트리.py)
 
+* [이진 트리 구현](https://github.com/wwlee94/algorithm-python/blob/master/python/study/이진트리.py)
+
 ### 탐색
 * [투 포인터](https://github.com/wwlee94/algorithm-python/blob/master/python/study/투포인터.py)
 
 * [구간 합 구하기](https://github.com/wwlee94/algorithm-python/blob/master/python/study/구간합구하기.py)
 
-## 자료 구조
-* [이진 트리](https://github.com/wwlee94/algorithm-python/blob/master/python/study/이진트리.py)
+### 매칭
+* [이분 매칭](https://github.com/wwlee94/algorithm-python/blob/master/python/study/17-이분매칭.py)
 
 ### 다양한 알고리즘
 * [에라토스테네스의 체](https://github.com/wwlee94/algorithm-python/blob/master/python/study/13-에라토스테네스의체.py)

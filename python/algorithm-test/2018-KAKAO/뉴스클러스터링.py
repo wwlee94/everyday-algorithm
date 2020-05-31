@@ -35,10 +35,10 @@ def solution(str1, str2):
     # 다중 집합의 교집합
     set_A = set(multi_A)
     set_B = set(multi_B)
-    temp = set(set_A | set_B)
+    temp = set(set_A | set_B) # 각 A, B 집합의 합집합의 모든 종류
     
-    inter_dic = {}
-    union_dic = {}
+    inter_dic = {} # 교집합 종류를 count 해주는 dictionary
+    union_dic = {} # 합집합 종류를 count 해주는 dictionary
     for t in temp:
         a_count = multi_A.count(t)
         b_count = multi_B.count(t)

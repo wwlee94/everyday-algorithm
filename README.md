@@ -125,6 +125,8 @@
 * [방금 그곡](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2018-KAKAO/방금그곡.py)
 * [캐시](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2018-KAKAO/캐시.py)
 * [압축](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2018-KAKAO/압축.py)
+* [파일명 정렬](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2018-KAKAO/파일명정렬.py)
+* [n진수 게임](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2018-KAKAO/n진수게임.py)
 
 ### 2019 라인 코딩 테스트
 * [코니와 브라운의 술래잡기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2019-LINE/코니와브라운의술래잡기.py)

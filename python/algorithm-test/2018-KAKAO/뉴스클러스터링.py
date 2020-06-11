@@ -15,8 +15,8 @@ import re
 def solution(str1, str2):
     p = re.compile('[a-z]{2}')
     
-    # 문자열을 두 글자씩 끊어 리스트로 만들어주는 메서드
-    def multi_set(string):
+     # 문자열을 두 글자씩 끊어 리스트로 만들어주는 메서드
+    def split_list(string):
         leng = len(string)
         string = string.lower()
         i = 0 ; j = 1
@@ -29,23 +29,20 @@ def solution(str1, str2):
             j += 1
         return arr
             
-    multi_A = multi_set(str1)
-    multi_B = multi_set(str2)
+    list_A = split_list(str1)
+    list_B = split_list(str2)
     
-    # 다중 집합의 교집합
-    set_A = set(multi_A)
-    set_B = set(multi_B)
-    temp = set(set_A | set_B) # 각 A, B 집합의 합집합의 모든 종류
+    set_A = set(list_A)
+    set_B = set(list_B)
+    temp = set(set_A | set_B)  # 각 A, B 집합의 합집합의 모든 종류
     
     inter_dic = {} # 교집합 종류를 count 해주는 dictionary
     union_dic = {} # 합집합 종류를 count 해주는 dictionary
     for t in temp:
-        a_count = multi_A.count(t)
-        b_count = multi_B.count(t)
-        _min = min(a_count, b_count)
-        _max = max(a_count, b_count)
-        inter_dic[t] = _min
-        union_dic[t] = _max
+        a_count = list_A.count(t)
+        b_count = list_B.count(t)
+        inter_dic[t] = min(a_count, b_count)
+        union_dic[t] = max(a_count, b_count)
     
     # 다중 집합의 교집합
     intersection = []
@@ -59,13 +56,11 @@ def solution(str1, str2):
         for i in range(union_dic[key]):
             union.append(key)
 
-    inter_len = len(intersection)
-    union_len = len(union)
     answer = 0
-    if union_len == 0:
+    if len(union) == 0:
         answer = 1
-    elif inter_len == 0:
+    elif len(intersection) == 0:
         answer = 0
     else:
-        answer = inter_len / union_len
+        answer = len(intersection) / len(union)
     return int(answer * 65536)

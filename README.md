@@ -47,6 +47,7 @@
     * [큰 수 만들기](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/greedy/큰수만들기.py)
     * [조이스틱](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/greedy/조이스틱.py)
     * [구명보트](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/greedy/구명보트.py)
+    * [단속 카메라](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/greedy/단속카메라.py)
 7. DFS/BFS
     * [타겟 넘버](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/dfs-bfs/타겟넘버.py)
 8. 그래프

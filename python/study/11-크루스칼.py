@@ -18,50 +18,64 @@
 
 # Union-Find의 코드를 그대로 사용한다 ! -> 사이클이 발생하는지 여부를 확인하기 위해서!
 # 부모 노드를 찾는 함수
+
+
 def getParent(parent, x):
-  # 그래프가 자기 자신 하나인 경우 !
-  if parent[x] == x: return x
-  parent[x] = getParent(parent, parent[x])
-  return parent[x]
+    # 그래프가 자기 자신 하나인 경우 !
+    if parent[x] == x:
+        return x
+    parent[x] = getParent(parent, parent[x])
+    return parent[x]
 
 # 두 부모 노드를 합치는 함수
+
+
 def unionParent(parent, a, b):
-  # 부모를 찾은 후
-  a = getParent(parent, a)
-  b = getParent(parent, b)
-  
-  # 더 작은 값을 부모로 지정한다
-  if a < b: parent[b] = a
-  else: parent[a] = b
+    # 부모를 찾은 후
+    a = getParent(parent, a)
+    b = getParent(parent, b)
+
+    # 더 작은 값을 부모로 지정한다
+    if a < b:
+        parent[b] = a
+    else:
+        parent[a] = b
 
 # 같은 부모를 가지는지 확인
-def findParent(parent, a, b):
-  a = getParent(parent, a)
-  b = getParent(parent, b)
 
-  if a==b: return True
-  else: return False
+
+def findParent(parent, a, b):
+    a = getParent(parent, a)
+    b = getParent(parent, b)
+
+    if a == b:
+        return True
+    else:
+        return False
 
 # 간선 클래스 생성
-class Edge:
-  # 클래스 변수 = 공유됨
-  # distance = 0
-  
-  # 생성자 
-  # 내부는 인스턴스 변수들
-  def __init__(self, start, end, distance):
-    self.start = start
-    self.end = end
-    self.distance = distance
-  
-  # __str__ 은 비공식적인(informal) 문자열을 출력할 때 사용
-  # __repr__ 은 공식적인 문자열을 출력할 때 사용
-  def __repr__(self):
-    return repr([self.start, self.end, self.distance])
 
-n = 7 # 노드의 개수
-m = 11 # 간선의 개수
-v = [] # Edge를 담을 리스트
+
+class Edge:
+    # 클래스 변수 = 공유됨
+    # distance = 0
+
+    # 생성자
+    # 내부는 인스턴스 변수들
+    def __init__(self, start, end, distance):
+        self.start = start
+        self.end = end
+        self.distance = distance
+
+    # __str__ 은 비공식적인(informal) 문자열을 출력할 때 사용
+    # __repr__ 은 공식적인 문자열을 출력할 때 사용
+    def __repr__(self):
+        return repr([self.start, self.end, self.distance])
+
+
+n = 7  # 노드의 개수
+m = 11  # 간선의 개수
+v = []  # Edge를 담을 리스트
 
 # 각 간선를 생성 (출발점, 도착점, 비용까지 포함된)
 v.append(Edge(1, 7, 12))
@@ -84,14 +98,14 @@ print(v)
 # = 사이클 테이블 저장
 parent = [0] * n
 for i in range(n):
-  parent[i] = i
+    parent[i] = i
 
 _sum = 0
 for i in range(m):
-  # 사이클이 발생하지 않는 경우 같은 그래프에 포함시켜준다.
-  if(not findParent(parent, v[i].start - 1, v[i].end - 1)):
-    _sum += v[i].distance # 
-    unionParent(parent, v[i].start - 1, v[i].end - 1)
+    # 사이클이 발생하지 않는 경우 같은 그래프에 포함시켜준다.
+    if(not findParent(parent, v[i].start - 1, v[i].end - 1)):
+        _sum += v[i].distance
+        unionParent(parent, v[i].start - 1, v[i].end - 1)
 
 # 최소 비용 출력
 print(_sum)

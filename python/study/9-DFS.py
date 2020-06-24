@@ -14,22 +14,25 @@
 
 size = 7
 
-data = [[] for _ in range(size+1)] # 노드
-visited = [0] * (size+1) # 방문한 노드를 표시할 변수
+data = [[] for _ in range(size+1)]  # 노드
+visited = [0] * (size+1)  # 방문한 노드를 표시할 변수
 
-answer = [] # DFS 방문 경로
+answer = []  # DFS 방문 경로
+
 
 def dfs(start):
-  if(visited[start]): return
-  
-  # 방문 처리
-  visited[start] = 1
-  answer.append(start)
+    if(visited[start]):
+        return
 
-  # 해당 start 값과 일치하는 노드의 인접 노드를 dfs로 탐색
-  for i in range(len(data[start])):
-    y = data[start][i]
-    dfs(y)
+    # 방문 처리
+    visited[start] = 1
+    answer.append(start)
+
+    # 해당 start 값과 일치하는 노드의 인접 노드를 dfs로 탐색
+    for i in range(len(data[start])):
+        y = data[start][i]
+        dfs(y)
+
 
 # 그래프 임의로 연결해주기
 # 1과 2를 연결합니다.

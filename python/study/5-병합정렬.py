@@ -28,51 +28,63 @@
 만약 함수 안에서 배열을 선언하게 된다면 공간을 새로 생성하기 때문에 메모리 자원 낭비가 커질 수 있다.
 이와 같이 병합 정렬은 기본적으로 '기존의 데이터를 담을 추가적인 배열이 필요하다'는 점에서 메모리 활용이 비효율적인 문제가 있다.
 그래서 정렬을 위한 전역 변수를 사용하자 !
+
+시간 복잡도: O(N^2)
+공간 복잡도: O(N) but, 재귀 함수안에서 배열을 선언하면 공간이 더 필요함
+
+- 특징 -
+1. 퀵소트와는 반대로 안정 정렬(stable sort)
+2. 정렬을 위한 공간이 더 필요할 수도있다.
+3. LinkedList 정렬이 필요할때 퀵소트 보다 빠르다 (merge sort가 순차적인 비교로 정렬을 진행하므로)
 '''
 
-data = [7, 6, 5, 8, 3, 5, 9 ,1]
+data = [7, 6, 5, 8, 3, 5, 9, 1]
 size = len(data)
-_sorted = [0 for _ in range(size)] # 정렬 temp 배열은 반드시 전역 변수로 선언 
+_sorted = [0 for _ in range(size)]  # 정렬 temp 배열은 반드시 전역 변수로 선언
 
 # m : 시작점
 # middle : 중간점
 # n : 끝점
-def merge(data, m, middle, n):
-  i = m
-  j = middle + 1
-  k = m # _sorted의 인덱스
 
-  # 작은 순서대로 배열에 삽입
-  while(i <= middle and j <= n):
-    if data[i] <= data[j]:
-      _sorted[k] = data[i]
-      i += 1
+
+def merge(data, m, middle, n):
+    i = m
+    j = middle + 1
+    k = m  # _sorted의 인덱스
+
+    # 작은 순서대로 배열에 삽입
+    while(i <= middle and j <= n):
+        if data[i] <= data[j]:
+            _sorted[k] = data[i]
+            i += 1
+        else:
+            _sorted[k] = data[j]
+            j += 1
+        k += 1
+
+    # 남은 데이터도 삽입 !
+    if i > middle:  # i가 먼저 끝난 경우
+        for t in range(j, n+1):
+            _sorted[k] = data[t]
+            k += 1
     else:
-      _sorted[k] = data[j]
-      j += 1
-    k += 1
-  
-  # 남은 데이터도 삽입 !
-  if i > middle: # i가 먼저 끝난 경우
-    for t in range(j, n+1):
-      _sorted[k] = data[t]
-      k += 1
-  else:
-    for t in range(i, middle+1):
-      _sorted[k] = data[t]
-      k += 1
-  
-  # 정렬된 배열을 삽입
-  for t in range(m, n+1):
-    data[t] = _sorted[t]
+        for t in range(i, middle+1):
+            _sorted[k] = data[t]
+            k += 1
+
+    # 정렬된 배열을 삽입
+    for t in range(m, n+1):
+        data[t] = _sorted[t]
+
 
 def mergeSort(data, m, n):
-  # 크기가 1보다 큰 경우
-  if m < n:
-    middle = (m + n) // 2
-    mergeSort(data, m , middle)
-    mergeSort(data, middle + 1 , n)
-    merge(data, m, middle, n)
+    # 크기가 1보다 큰 경우
+    if m < n:
+        middle = (m + n) // 2
+        mergeSort(data, m, middle)
+        mergeSort(data, middle + 1, n)
+        merge(data, m, middle, n)
+
 
 mergeSort(data, 0, size - 1)
-print(data) # [1, 3, 5, 5, 6, 7, 8, 9]
+print(data)  # [1, 3, 5, 5, 6, 7, 8, 9]

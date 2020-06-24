@@ -42,19 +42,21 @@
 4. 남아 있는 수를 모두 출력합니다.
 '''
 
-number = 100000 # 총 10만개의 소수 판별
+number = 100000  # 총 10만개의 소수 판별
 a = [0] * (number+1)
 
 # 판별할 범위 만큼 값 할당
 for i in range(2, number+1):
-  a[i] = i
+    a[i] = i
 
 for i in range(2, number+1):
-  if a[i] == 0: continue
-  # 자기 자신을 제외한 2배수 모두 제거
-  for j in range(i * 2, number+1, i): 
-    a[j] = 0
+    if a[i] == 0:
+        continue
+    # 자기 자신을 제외한 2배수 모두 제거
+    for j in range(i * 2, number+1, i):
+        a[j] = 0
 
 # 남아 있는 수 출력
 for i in range(2, number+1):
-  if a[i] != 0: print(a[i], end=' ')
+    if a[i] != 0:
+        print(a[i], end=' ')

@@ -12,14 +12,19 @@
 하지만.. 가장 쉬운 구현 방법이나 가장 효율성도 떨어지는 알고리즘이다.. (컴퓨터 내부 연산이 비효율적이여서, 스왑이 많이 일어남)
 
 시간 복잡도 : O(N^2)
+공간 복잡도 : O(N)
+
+- 특징 -
+1. 다른 메모리 공간을 필요로 하지 않는다 => 제자리 정렬(in-place sorting)
+2. 안정 정렬(stable sort)
 '''
 
 data = [1, 10, 5, 8, 7, 6, 4, 3, 2, 9]
 size = len(data)
 for i in range(size-1):
-  for j in range(size-1-i):
-    if data[j] > data[j+1]:
-      data[j], data[j+1] = data[j+1], data[j]
+    for j in range(size-1-i):
+        if data[j] > data[j+1]:
+            data[j], data[j+1] = data[j+1], data[j]
 
 # 왼쪽부터 쌓이는 버블 정렬
 # for i in range(size):
@@ -27,4 +32,4 @@ for i in range(size-1):
 #     if data[i] > data[j]:
 #       data[i], data[j] = data[j], data[i] # swap
 
-print(data) # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(data)  # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

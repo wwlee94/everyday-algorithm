@@ -36,25 +36,43 @@ O(N*logN)의 시간복잡도를 가지는 퀵 정렬, 병합 정렬, 힙 정렬 
 
 1을 8번 출력하고, 2를 6번 출력하고 ...
 이런식으로 출력하면 정렬과 동일한 효과를 얻을 수 있습니다.
+
+- 특징 - 
+1. 사용 : 정렬하는 숫자가 특정한 범위 내에 있을 때 사용
+2. 장점 : O(n) 의 시간복잡도
+3. 단점 : 배열 사이즈 N 만큼 돌 때, 증가시켜주는 Counting 배열의 크기가 큼.
+(메모리 낭비가 심함)
+
+
+# 기수 정렬 - Radix Sort
+다르지만 비슷한 알고리즘
+데이터를 구성하는 기본 요소 (Radix) 를 이용하여 정렬을 진행하는 방식
+
+장점 : 문자열, 정수 정렬 가능
+
+- 단점 - 
+1. 자릿수가 없는 것은 정렬할 수 없음. (부동 소숫점)
+2. 중간 결과를 저장할 bucket 공간이 필요함.
 '''
 
-data  = [1,3,2,4,3,2,5,3,1,2,3,4,4,3,5,1,2,3,5,2,3,1,4,3,5,1,2,1,1,1]
+data = [1, 3, 2, 4, 3, 2, 5, 3, 1, 2, 3, 4, 4, 3,
+        5, 1, 2, 3, 5, 2, 3, 1, 4, 3, 5, 1, 2, 1, 1, 1]
 size = len(data)
 
 count = {}
 
 # 개수 세서 dict에 저장하기 !
 for i in range(size):
-  if data[i] not in count:
-    count[data[i]] = 1
-  else:
-    count[data[i]] += 1
+    if data[i] not in count:
+        count[data[i]] = 1
+    else:
+        count[data[i]] += 1
 
 # 키값으로 sort한 후
 results = sorted(count.items())
 
 # 출력 !
 for result in results:
-  for _ in range(result[1]):
-    print(f'{result[0]}', end=' ')
+    for _ in range(result[1]):
+        print(f'{result[0]}', end=' ')
 print()

@@ -55,6 +55,7 @@
     * [순위](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/graph/순위.py)
 9. 이진 탐색
     * [예산](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/binary-search/예산.py)
+    * [입국심사](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/binary-search/입국심사.py)
 
 ### 백준 알고리즘
 

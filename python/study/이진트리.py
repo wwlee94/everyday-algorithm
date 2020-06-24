@@ -13,15 +13,17 @@
 이 원소는 A의 모든 원소들보다는 크면서, B의 나머지 원소보다 작기 때문에 해당 노드를 가져오면 됨
 '''
 
+
 class Node(object):
-    def __init__(self, data): # 초기화
+    def __init__(self, data):  # 초기화
         self.data = data
         self.left = self.right = None
 
+
 class BinarySearchTree(object):
-    def __init__(self): # 초기화
+    def __init__(self):  # 초기화
         self.root = None
-    
+
     def insert(self, data):
         self.root = self._insert_value(self.root, data)
         return self.root is not None
@@ -40,7 +42,7 @@ class BinarySearchTree(object):
 
     def find(self, key):
         return self._find_value(self.root, key)
-    
+
     def _find_value(self, node, key):
         if node is None or node.data == key:
             return node is not None
@@ -65,11 +67,12 @@ class BinarySearchTree(object):
                 parent, child = node, node.right
                 while child.left is not None:
                     parent, child = child, child.left
-                child.left = node.left # node.left의 서브트리를 child.left에 붙임
-                if parent != node: # 삭제하려는 노드의 왼쪽, 오른쪽이 여러개 서브 트리일 때
-                    parent.left = child.right # parent.left에는 child가 있었지만 child.right만 남김
-                    child.right = node.right # child.right는 parent.left에 붙였으니 떼어진 상태 -> node.right(parent)를 child.right에 붙임
-                node = child # node(다 떼어서 left, right도 없는 노드)를 위의 child로 대체 
+                child.left = node.left  # node.left의 서브트리를 child.left에 붙임
+                if parent != node:  # 삭제하려는 노드의 왼쪽, 오른쪽이 여러개 서브 트리일 때
+                    parent.left = child.right  # parent.left에는 child가 있었지만 child.right만 남김
+                    # child.right는 parent.left에 붙였으니 떼어진 상태 -> node.right(parent)를 child.right에 붙임
+                    child.right = node.right
+                node = child  # node(다 떼어서 left, right도 없는 노드)를 위의 child로 대체
             elif node.left or node.right:
                 node = node.left or node.right
             else:
@@ -79,25 +82,24 @@ class BinarySearchTree(object):
         else:
             node.right, deleted = self._delete_value(node.right, key)
         return node, deleted
-    
+
     # 이진트리 출력
     def _print(self):
         self.search_dfs(self.root)
-        print() # 줄바꿈
+        print()  # 줄바꿈
 
     # 전위 순회
     def search_dfs(self, node):
         if node is None:
             print('값이 없습니다.')
-            pass # pass: 단순히 실행할 코드가 없다는 의미
+            pass  # pass: 단순히 실행할 코드가 없다는 의미
         else:
             print(node.data, end=' ')
             if node.left is not None:
                 self.search_dfs(node.left)
             if node.right is not None:
                 self.search_dfs(node.right)
-        
-        
+
 
 # 사용 예제
 array = [40, 4, 34, 45, 14, 55, 48, 13, 15, 49, 47]
@@ -105,17 +107,16 @@ bst = BinarySearchTree()
 for i in array:
     bst.insert(i)
 
-bst._print() # 전위 순회
+bst._print()  # 전위 순회
 
-print(bst.find(15)) # True
-print(bst.find(100)) # False
+print(bst.find(15))  # True
+print(bst.find(100))  # False
 
-bst.delete(55) # True
-bst._print() # 40 4 34 14 13 15 45 48 47 49
+bst.delete(55)  # True
+bst._print()  # 40 4 34 14 13 15 45 48 47 49
 
-bst.delete(14) # True
-bst._print() # 40 4 34 15 13 45 48 47 49
+bst.delete(14)  # True
+bst._print()  # 40 4 34 15 13 45 48 47 49
 
-bst.delete(100) # False
-bst._print() # 40 4 34 15 13 45 48 47 49
-
+bst.delete(100)  # False
+bst._print()  # 40 4 34 15 13 45 48 47 49

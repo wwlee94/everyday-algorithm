@@ -81,44 +81,49 @@ print(distance) # 0 2 3 1 2 4
 # 힙으로 구현한 다익스트라 알고리즘 -> O(N*logN)
 '''
 # from collections import deque
+
+
+
+
 import heapq
-
 def dijkstra(start):
-  distance[start] = 0
-  pq = [] # 우선순위 힙 큐
-  heapq.heappush(pq, (0, start))
+    distance[start] = 0
+    pq = []  # 우선순위 힙 큐
+    heapq.heappush(pq, (0, start))
 
-  # 가까운 순서대로 처리하므로 큐를 사용합니다.
-  while pq:
-    node = heapq.heappop(pq) # 가장 작은 비용의 노드 빼옴
-    dist = node[0] # 거리
-    current = node[1] # 인덱스
+    # 가까운 순서대로 처리하므로 큐를 사용합니다.
+    while pq:
+        node = heapq.heappop(pq)  # 가장 작은 비용의 노드 빼옴
+        dist = node[0]  # 거리
+        current = node[1]  # 인덱스
 
-    # 최단 거리가 아닌 경우엔 스킵
-    if distance[current] < dist: continue
+        # 최단 거리가 아닌 경우엔 스킵
+        if distance[current] < dist:
+            continue
 
-    for i in range(len(graph[current])):
-      # 선택된 인접 노드들 !
-      _next = graph[current][i][1]
+        for i in range(len(graph[current])):
+            # 선택된 인접 노드들 !
+            _next = graph[current][i][1]
 
-      # 선택된 노드를 거쳐서 인접 노드로 가는 비용
-      next_distance = dist + graph[current][i][0]
+            # 선택된 노드를 거쳐서 인접 노드로 가는 비용
+            next_distance = dist + graph[current][i][0]
 
-      # 기존의 최소 비용 보다 더 저렴하다면 갱신 !
-      if(next_distance < distance[_next]):
-        distance[_next] = next_distance
-        heapq.heappush(pq, (next_distance, _next))
+            # 기존의 최소 비용 보다 더 저렴하다면 갱신 !
+            if(next_distance < distance[_next]):
+                distance[_next] = next_distance
+                heapq.heappush(pq, (next_distance, _next))
+
 
 # 변수 선언
 number = 6
 INF = 1000000000
 
-graph = [[] for _ in range(number+1)] # 간선 정보를 인접 리스트로 ! -> 노드 1부터 시작하도록
-distance = [0] * (number+1) # 최소 비용
+graph = [[] for _ in range(number+1)]  # 간선 정보를 인접 리스트로 ! -> 노드 1부터 시작하도록
+distance = [0] * (number+1)  # 최소 비용
 
 # 기본적으로 연결되지 않은 노드의 비용은 무한
 for i in range(1, number+1):
-  distance[i] = INF
+    distance[i] = INF
 
 # (간선 거리, 노드의 index)
 graph[1].append([2, 2])
@@ -150,5 +155,5 @@ graph[6].append([2, 5])
 # 다익스트라 실행
 dijkstra(1)
 for i in range(1, number+1):
-  print(distance[i], end=' ') # 0 2 3 1 2 4
+    print(distance[i], end=' ')  # 0 2 3 1 2 4
 print()

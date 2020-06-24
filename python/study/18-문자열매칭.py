@@ -22,22 +22,25 @@ KMP에 대해서 다루기 전에 '단순 비교 문자열 매칭' 알고리즘�
 
 # parent -> 어떤 문자열에서 찾고 싶은지
 # pattern -> 찾고 싶은 문자열
+
+
 def find_string(parent, pattern):
-  # 두 문자열이 동일한지?
-  def is_finded(i):
-    for j in range(pattern_size):
-      if parent[i+j] != pattern[j]:
-        return False
-    return True
+    # 두 문자열이 동일한지?
+    def is_finded(i):
+        for j in range(pattern_size):
+            if parent[i+j] != pattern[j]:
+                return False
+        return True
 
-  parent_size = len(parent)
-  pattern_size = len(pattern)
+    parent_size = len(parent)
+    pattern_size = len(pattern)
 
-  for i in range(parent_size - pattern_size):
-    if is_finded(i):
-      return i
+    for i in range(parent_size - pattern_size):
+        if is_finded(i):
+            return i
 
-  return -1
+    return -1
+
 
 parent = 'Hello World'
 pattern = 'llo W'
@@ -45,6 +48,6 @@ pattern = 'llo W'
 
 result = find_string(parent, pattern)
 if result == -1:
-  print('찾을 수 없습니다.')
+    print('찾을 수 없습니다.')
 else:
-  print(f'{result + 1}번째 에서 찾았습니다.')
+    print(f'{result + 1}번째 에서 찾았습니다.')

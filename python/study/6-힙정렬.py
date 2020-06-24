@@ -23,6 +23,15 @@ data =  '7 6 5 8 3 5 9 1 6'
 이러한 배열을 힙 구조로 바꾸고 정렬하는 시간 복잡도는
 1. 완전 이진 트리의 높이 logN == (Heapify 작업)
 2. 데이터의 개수 N으로 O(NlogN) 입니다.
+
+시간 복잡도 : O(NlogN)
+
+- 특징 -
+1. 불안정 정렬(unstable sort)
+2. 가장 크거나 가장 작은 값을 연속적으로 구할 때 좋다.
+    - 최소 힙 or 최대 힙의 루트 값이기 때문에 한번의 힙 구성을 통해 구하는 것이 가능
+3. 최대 k 만큼 떨어진 요소들을 정렬할 때 좋다.
+    - 삽입정렬보다 더욱 개선된 결과를 얻어낼 수 있음
 '''
 
 data = [7, 6, 5, 8, 3, 5, 9, 1, 6]
@@ -30,29 +39,29 @@ size = len(data)
 
 # 먼저 전체 트리 구조를 최대 힙 구조로 만들기 ! (하향식 방법 이용)
 for i in range(1, size):
-  
-  child = i
-  while child > 0:
-    root = (child - 1) // 2 # 부모 노드의 위치
-    if data[root] < data[child]:
-      data[root], data[child] = data[child], data[root]
-    child = root # 부모쪽으로 올라가서 위 동작 반복
+
+    child = i
+    while child > 0:
+        root = (child - 1) // 2  # 부모 노드의 위치
+        if data[root] < data[child]:
+            data[root], data[child] = data[child], data[root]
+        child = root  # 부모쪽으로 올라가서 위 동작 반복
 
 # 크기를 줄여가며 반복적으로 힙을 구성 (상향식 방법 이용)
 for i in range(size-1, -1, -1):
-  # 가장 큰 값은 맨뒤로 보내고 (오름 차순이기에)
-  data[0], data[i] = data[i], data[0]
+    # 가장 큰 값은 맨뒤로 보내고 (오름 차순이기에)
+    data[0], data[i] = data[i], data[0]
 
-  root = 0
-  child = 1
-  while child < i:
-    child = (2 * root) + 1 # 왼쪽 자식 노드의 위치 
-    # 자식 중에 더 큰 값 찾기 (오른쪽 자식이 크면 child += 1 되는 것)
-    if child < i - 1 and data[child] < data[child + 1]:
-      child += 1
-    # 루트보다 자식이 더 크다면 교환
-    if child < i and data[root] < data[child]:
-      data[root], data[child] = data[child], data[root]
-    root = child # 자식쪽으로 내려가서 위 동작 반복
+    root = 0
+    child = 1
+    while child < i:
+        child = (2 * root) + 1  # 왼쪽 자식 노드의 위치
+        # 자식 중에 더 큰 값 찾기 (오른쪽 자식이 크면 child += 1 되는 것)
+        if child < i - 1 and data[child] < data[child + 1]:
+            child += 1
+        # 루트보다 자식이 더 크다면 교환
+        if child < i and data[root] < data[child]:
+            data[root], data[child] = data[child], data[root]
+        root = child  # 자식쪽으로 내려가서 위 동작 반복
 
 print(data)

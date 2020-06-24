@@ -16,30 +16,32 @@ INF = 1000000000
 
 # 자료 배열을 초기화합니다.
 graph = [
-  [0, 5, INF, 8],
-  [7, 0, 9, INF],
-  [2, INF, 0, 4],
-  [INF, INF, 3, 0]
+    [0, 5, INF, 8],
+    [7, 0, 9, INF],
+    [2, INF, 0, 4],
+    [INF, INF, 3, 0]
 ]
 
+
 def floyd_warshall():
-  # 결과 그래프를 초기화합니다.
-  distance = [([0]*number) for _ in range(number)]
+    # 결과 그래프를 초기화합니다.
+    distance = [([0]*number) for _ in range(number)]
 
-  for i in range(number):
-    for j in range(number):
-      distance[i][j] = graph[i][j]
-
-  # k = 거쳐가는 노드
-  for k in range(number):
-    # i = 출발 노드
     for i in range(number):
-      # j = 도착 노드
-      for j in range(number):
-        if distance[i][k] + distance[k][j] < distance[i][j]:
-          distance[i][j] = distance[i][k] + distance[k][j]
+        for j in range(number):
+            distance[i][j] = graph[i][j]
 
-  # 결과를 출력합니다.
-  print(distance)
+    # k = 거쳐가는 노드
+    for k in range(number):
+        # i = 출발 노드
+        for i in range(number):
+            # j = 도착 노드
+            for j in range(number):
+                if distance[i][k] + distance[k][j] < distance[i][j]:
+                    distance[i][j] = distance[i][k] + distance[k][j]
+
+    # 결과를 출력합니다.
+    print(distance)
+
 
 floyd_warshall()

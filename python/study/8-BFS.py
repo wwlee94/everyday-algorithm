@@ -10,25 +10,27 @@
 size = 7
 
 # bfs 1부터 돌아서 size + 1 해준것
-data = [[] for _ in range(size+1)] # 노드
-visited = [0] * (size+1) # 방문한 노드를 표시할 변수
-queue = [] # 방문할 노드 큐
+data = [[] for _ in range(size+1)]  # 노드
+visited = [0] * (size+1)  # 방문한 노드를 표시할 변수
+queue = []  # 방문할 노드 큐
 
-answer = [] # BFS 방문 경로
+answer = []  # BFS 방문 경로
+
 
 def bfs(start):
-  queue.append(start)
-  visited[start] = 1
-  while(queue):
-    x = queue.pop(0)
-    answer.append(x)
+    queue.append(start)
+    visited[start] = 1
+    while(queue):
+        x = queue.pop(0)
+        answer.append(x)
 
-    # 인접한 노드를 방문
-    for i in range(len(data[x])):
-      y = data[x][i]
-      if visited[y] == 0:
-        queue.append(y)
-        visited[y] = 1
+        # 인접한 노드를 방문
+        for i in range(len(data[x])):
+            y = data[x][i]
+            if visited[y] == 0:
+                queue.append(y)
+                visited[y] = 1
+
 
 # 그래프 임의로 연결해주기
 # 1과 2를 연결합니다.

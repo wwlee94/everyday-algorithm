@@ -32,40 +32,43 @@
 # 위상 정렬의 시간 복잡도는 O(V+E)로 매우 빠른 알고리즘 입니다.
 '''
 
+
 def topology_sort():
-  result = [0] * (n+1)
-  q = []
+    result = [0] * (n+1)
+    q = []
 
-  # 진입 차수가 0인 노드를 큐에 삽입합니다.
-  for i in range(1, n+1):
-    if(inDegree[i]==0): q.append(i)
-  
-  # 위상 정렬이 완전히 수행되려면 정확히 N개의 노드를 방문해야합니다.
-  for i in range(1, n+1):
-    # n개를 방문하기 전에 큐가 빈다면 사이클이 발생한 것 !
-    if len(q)==0:
-      print('사이클이 발생했습니다.')
-      return
+    # 진입 차수가 0인 노드를 큐에 삽입합니다.
+    for i in range(1, n+1):
+        if(inDegree[i] == 0):
+            q.append(i)
 
-    # x의 간선을 제거한 뒤 진입 차수 갱신
-    x = q.pop(0)
-    result[i] = x
-    for j in range(len(graph[x])):
-      y = graph[x][j]
+    # 위상 정렬이 완전히 수행되려면 정확히 N개의 노드를 방문해야합니다.
+    for i in range(1, n+1):
+        # n개를 방문하기 전에 큐가 빈다면 사이클이 발생한 것 !
+        if len(q) == 0:
+            print('사이클이 발생했습니다.')
+            return
 
-      # 새롭게 진입차수가 0이 된 정점을 큐에 삽입
-      inDegree[y] -= 1
-      if inDegree[y]==0:
-        q.append(y)
-  
-  for i in range(1, n+1):
-    print(result[i], end=' ')
-  print()
+        # x의 간선을 제거한 뒤 진입 차수 갱신
+        x = q.pop(0)
+        result[i] = x
+        for j in range(len(graph[x])):
+            y = graph[x][j]
 
-n = 7 # 노드의 개수
+            # 새롭게 진입차수가 0이 된 정점을 큐에 삽입
+            inDegree[y] -= 1
+            if inDegree[y] == 0:
+                q.append(y)
 
-inDegree = [0] * (n+1) # 각 노드의 진입 차수 (다른 노드에서 들어오는 간선)
-graph = [[] for _ in range(n+1)] # 인접 리스트를 위한 2차원 배열
+    for i in range(1, n+1):
+        print(result[i], end=' ')
+    print()
+
+
+n = 7  # 노드의 개수
+
+inDegree = [0] * (n+1)  # 각 노드의 진입 차수 (다른 노드에서 들어오는 간선)
+graph = [[] for _ in range(n+1)]  # 인접 리스트를 위한 2차원 배열
 
 graph[1].append(2)
 inDegree[2] += 1

@@ -30,41 +30,51 @@ O(N^2) 알고리즘으로 처리하면? -> 10 * 10 = 100번
 
 퀵 정렬의 단점!?
 - 평균은 O(NlogN)이지만 최악의 경우 시간복잡도 O(N^2)가 됩니다.
-어떤 경우인지!?
+- 불안정 정렬(unstable sort)
+최악은 어떤 경우인지!?
 - 이미 정렬이 된 배열에 피봇을 첫번째로 잡고 퀵 정렬 시도하면 분할이 되지 않아 기본 정렬과 같은 시간 복잡도가 걸립니다 !
+=> 피벗값이 최소나 최대가 되어 partition이 나누어지지 않을 때 !
+=> 해결법은 
+int mid = (start + end) / 2;
+swap(data, start, mid)
+
+시간 복잡도 : O(N^2)
+공간 복잡도 : O(N)
 '''
 
 data = [1, 10, 5, 8, 7, 6, 4, 3, 2, 9]
 size = len(data)
 
+
 def quick_sort(data, start, end):
-  # 원소가 1개인 경우!
-  if start >= end: 
-    return
+    # 원소가 1개인 경우!
+    if start >= end:
+        return
 
-  pivot = start # 키는 첫번째 원소
-  i = start + 1 # 키 값의 오른쪽 !
-  j = end
+    pivot = start  # 키는 첫번째 원소
+    i = start + 1  # 키 값의 오른쪽 !
+    j = end
 
-  # 엇갈릴 때 까지 반복 
-  while i <= j:
+    # 엇갈릴 때 까지 반복
+    while i <= j:
 
-    # 키 값보다 큰 값을 만날때 까지
-    while (data[i] <= data[pivot]) and (i < end):
-      i += 1
+        # 키 값보다 큰 값을 만날때 까지
+        while (data[i] <= data[pivot]) and (i < end):
+            i += 1
 
-    # 키 값보다 작은 값을 만날때 까지
-    while (data[j] >= data[pivot]) and (j > start):
-      j -= 1
+        # 키 값보다 작은 값을 만날때 까지
+        while (data[j] >= data[pivot]) and (j > start):
+            j -= 1
 
-    # 현재 같거나 엇갈렸다면 키 값과 교체
-    if i >= j:
-      data[pivot], data[j] = data[j], data[pivot]
-    else:
-      data[i], data[j] = data[j], data[i]
+        # 현재 같거나 엇갈렸다면 키 값과 교체
+        if i >= j:
+            data[pivot], data[j] = data[j], data[pivot]
+        else:
+            data[i], data[j] = data[j], data[i]
 
-  quick_sort(data, start, j - 1)
-  quick_sort(data, j + 1, end)
+    quick_sort(data, start, j - 1)
+    quick_sort(data, j + 1, end)
+
 
 # 실행
 quick_sort(data, 0, size-1)

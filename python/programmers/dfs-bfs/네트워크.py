@@ -1,6 +1,9 @@
 '''
 * 🤷‍♂️ Created by wwlee94 on 2020.06.19
 https://programmers.co.kr/learn/courses/30/lessons/43162
+
+- 문제 풀이 접근 -
+https://wwlee94.github.io/category/algorithm/bfs-dfs/network/
 '''
 
 # 다른 부모가 몇개인지 파악하는 문제 !

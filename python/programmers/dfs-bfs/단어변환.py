@@ -1,3 +1,11 @@
+'''
+* 🤷‍♂️ Created by wwlee94 on 2020.06.21
+https://programmers.co.kr/learn/courses/30/lessons/43163
+
+-문제 풀이 접근-
+https://wwlee94.github.io/category/algorithm/bfs-dfs/word-conversion/
+'''
+
 def solution(begin, target, words):
     # 현재 노드에서 갈 수 있는 다른 경로 구하는 함수
     def get_path(current, words):
@@ -5,9 +13,8 @@ def solution(begin, target, words):
         for word in words:
             count = 0
             for i in range(len(current)):
-                if current[i] == word[i]:
-                    count += 1
-            if count == len(current) - 1:
+                if current[i] == word[i]: count += 1
+            if count == len(current) - 1: 
                 arr.append(word)
         return arr
     

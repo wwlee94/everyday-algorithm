@@ -1,7 +1,6 @@
 def solution(N, M, map):
     
     visited = [[0]*M for _ in range(N) ]
-    answer = []
     
     def dfs(i, j, path):
         if i >= N or j >= M :
@@ -12,7 +11,8 @@ def solution(N, M, map):
             dfs(i+1, j, path)
             dfs(i, j+1, path)
         return path
-    res = dfs(0,0, [])
-    print(res)
-    print(answer)
+
+    answer = dfs(0,0, [])
     return answer
+
+res = solution(3,3, [[2,0,0], [2,0,0], [2,2,2]])

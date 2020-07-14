@@ -8,8 +8,6 @@
 '''
 
 # 부모 노드를 찾는 함수
-
-
 def getParent(parent, x):
     # 그래프가 자기 자신 하나인 경우 !
     if parent[x] == x:
@@ -18,8 +16,6 @@ def getParent(parent, x):
     return parent[x]
 
 # 두 부모 노드를 합치는 함수
-
-
 def unionParent(parent, a, b):
     # 부모를 찾은 후
     a = getParent(parent, a)
@@ -32,8 +28,6 @@ def unionParent(parent, a, b):
         parent[a] = b
 
 # 같은 부모를 가지는지 확인
-
-
 def findParent(parent, a, b):
     a = getParent(parent, a)
     b = getParent(parent, b)

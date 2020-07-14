@@ -51,7 +51,8 @@
 7. DFS/BFS
     * [타겟 넘버](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/dfs-bfs/타겟넘버.py)
     * [네트워크](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/dfs-bfs/네트워크.py)
-    * [단어변환](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/dfs-bfs/단어변환.py)
+    * [단어 변환](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/dfs-bfs/단어변환.py)
+    * [여행 경로](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/dfs-bfs/여행경로.py)
 8. 그래프
     * [가장 먼 노드](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/graph/가장먼노드.py)
     * [순위](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/graph/순위.py)

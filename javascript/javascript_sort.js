@@ -41,3 +41,9 @@ console.log(student);
 
 // object 숫자 오름차순 정렬
 student.sort((a, b) => a.age - b.age);
+
+// payload 순위 조정 (경험치 기준)
+rankings.sort((x, y) => {
+  if (y.exp === x.exp) return y.achievement - x.achievement;
+  return y.exp - x.exp;
+});

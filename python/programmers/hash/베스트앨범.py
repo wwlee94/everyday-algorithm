@@ -12,6 +12,39 @@
 3100, 1450, .. -> 장르별 총 재생횟수
 [2500, 4], [600, 1], .. -> [재생횟수, 고유번호]
 '''
+# 2020.07.14
+from collections import defaultdict
+def solution(genres, plays):
+    genres_with_plays = list(zip(genres, plays))
+    
+    albums = defaultdict(list)
+    idx = 0
+    for genre, play in genres_with_plays:
+        albums[genre].append((idx, play)) # 인덱스와 플레이 수를 함께 저장
+        idx += 1
+    
+    top_plays = []
+    for key in albums:
+        albums[key].sort(key = lambda x:x[0]) # 인덱스 오름차순
+        albums[key].sort(key = lambda x:x[1], reverse=True) # 플레이 수 내림차순
+        
+        # 모든 장르별 총 재생 횟수 구하기
+        total = sum(int(v) for (idx, v) in albums[key])
+        top_plays.append((key, total))
+        
+    # 많이 재생된 장르 순으로 정렬
+    top_plays.sort(key=lambda x:x[1], reverse=True)
+    
+    answer = []
+    for genre, total in top_plays:
+        # 상위 2개만
+        top_rate = albums[genre][:2]
+        for idx, play in top_rate:
+            answer.append(idx)
+    return answer
+
+
+# 2020.01.13
 def solution(genres, plays):
     answer = []
     genre_play = []

@@ -10,7 +10,6 @@ Counter 모듈로 각 의상 종류별 개수를 구하고
 '''
 # 2020.07.13
 from collections import defaultdict
-from functools import reduce
 def solution(clothes):
     # 1. 해시로 같은 의상을 묶는다.
     _hash = defaultdict(list)
@@ -24,7 +23,8 @@ def solution(clothes):
         answer *= leng + 1 # 안뽑는 경우 1개 추가
     return answer - 1 # 모두 안뽑는 경우 1개 제거
 
-'''
+
+# 2020.01.12
 from collections import Counter
 def solution(clothes):
     answer = 1

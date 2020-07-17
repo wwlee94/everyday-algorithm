@@ -9,8 +9,9 @@ def solution(triangle):
     
     # 각 층 원소의 합 최대값을 담는 변수
     memo = [[-1 for _ in triangle[i]] for i in range(len(triangle))]
-    memo[0][0] = triangle[0][0]
+    memo[0][0] = triangle[0][0] # 초기값 지정
     
+    # 0층은 초기값 1층부터 시작
     for i in range(1, len(triangle)):
         leng = len(triangle[i])
         for j in range(leng):

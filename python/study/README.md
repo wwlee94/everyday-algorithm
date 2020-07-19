@@ -20,7 +20,11 @@
 ### 그래프
 * [너비 우선 탐색 - BFS](https://github.com/wwlee94/algorithm-python/blob/master/python/study/8-BFS.py)
 
+* [너비 우선 탐색 - BFS (인접행렬)](https://github.com/wwlee94/algorithm-python/blob/master/python/study/인접행렬-BFS-경로.py)
+
 * [깊이 우선 탐색 - DFS](https://github.com/wwlee94/algorithm-python/blob/master/python/study/9-DFS.py)
+
+* [깊이 우선 탐색 - DFS (인접행렬)](https://github.com/wwlee94/algorithm-python/blob/master/python/study/인접행렬-DFS-경로.py)
 
 * [합집합 찾기 - Union Find](https://github.com/wwlee94/algorithm-python/blob/master/python/study/10-합집합찾기.py)
 
@@ -32,18 +36,23 @@
 
 * [위상 정렬](https://github.com/wwlee94/algorithm-python/blob/master/python/study/16-위상정렬.py)
 
+### 스택
+* [이진 트리 탐색](https://github.com/wwlee94/algorithm-python/blob/master/python/study/스택구현.py)
+
 ### 트리
 * [이진 트리 탐색](https://github.com/wwlee94/algorithm-python/blob/master/python/study/12-이진트리.py)
 
 * [이진 트리 구현](https://github.com/wwlee94/algorithm-python/blob/master/python/study/이진트리.py)
 
 ### 탐색
-* [투 포인터](https://github.com/wwlee94/algorithm-python/blob/master/python/study/투포인터.py)
+* [구간 합 구하기](https://github.com/wwlee94/algorithm-python/blob/master/python/study/20-구간합구하기.py)
 
-* [구간 합 구하기](https://github.com/wwlee94/algorithm-python/blob/master/python/study/구간합구하기.py)
+* [투 포인터](https://github.com/wwlee94/algorithm-python/blob/master/python/study/21-투포인터.py)
 
 ### 매칭
 * [이분 매칭](https://github.com/wwlee94/algorithm-python/blob/master/python/study/17-이분매칭.py)
 
 ### 다양한 알고리즘
 * [에라토스테네스의 체](https://github.com/wwlee94/algorithm-python/blob/master/python/study/13-에라토스테네스의체.py)
+
+* [문자열 매칭](https://github.com/wwlee94/algorithm-python/blob/master/python/study/18-문자열매칭.py)

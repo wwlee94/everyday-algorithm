@@ -1,7 +1,30 @@
 '''
 * 🤷‍♂️ Created by wwlee94 on 2020.03.06
 https://programmers.co.kr/learn/courses/30/lessons/42842
+'''
 
+# 2020.07.21
+# 문제의 핵심 : 노란색의 모양을 알면 전체 크기를 구할 수 있다..!
+def solution(brown, yellow):
+    total_size = brown + yellow
+    
+    candidates = []
+    for row in range(yellow, 0, -1):
+        # 나누어지는 row만 pick
+        if yellow % row == 0:
+            for col in range(1, row+1): # row >= col까지
+                if yellow % col == 0:
+                    if row * col == yellow:
+                        candidates.append([row, col])
+    # 후보 중에서 조건에 맞는 것 반환
+    # yellow의 y_row, y_col로 전체 row, col을 구해서 나온 너비가 total_size와 동일한지
+    for y_row, y_col in candidates:
+        row = y_row + 2
+        col = y_col + 2
+        if row * col == total_size:
+            return [row, col]
+
+'''
 - 문제 풀이 접근 -
 brown은 테두리이고 red는 안을 꽉 채워둔 카펫 모양임을 꼭 ! 인지해야함
 brown, red의 개수로 만들 수 있는 경우의 수를 모두 완전 탐색

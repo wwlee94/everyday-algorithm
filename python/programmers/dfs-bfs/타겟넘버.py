@@ -26,3 +26,26 @@ def solution(numbers, target):
             
     DFS()
     return answer
+
+# 2020.07.22 - 최근에 풀었지만, 조금 더 느린 풀이
+def solution(numbers, target):
+    answer = 0
+    candidates = []
+    
+    def DFS(number=0, i=0):
+        if i != 0:
+            candidates.append(number)
+        
+        if len(candidates) == len(numbers):
+            if sum(candidates) == target:
+                nonlocal answer;
+                answer += 1
+            return
+    
+        DFS(numbers[i], i+1)
+        candidates.pop()
+        DFS(numbers[i] * -1, i+1)
+        candidates.pop()
+        
+    DFS()
+    return answer

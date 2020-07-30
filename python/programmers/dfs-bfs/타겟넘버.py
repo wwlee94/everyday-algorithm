@@ -33,12 +33,13 @@ def solution(numbers, target):
     candidates = []
     
     def DFS(number=0, i=0):
+        nonlocal answer
+
         if i != 0:
             candidates.append(number)
         
         if len(candidates) == len(numbers):
             if sum(candidates) == target:
-                nonlocal answer;
                 answer += 1
             return
     

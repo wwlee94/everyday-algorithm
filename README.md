@@ -48,6 +48,8 @@
     * [조이스틱](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/greedy/조이스틱.py)
     * [구명보트](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/greedy/구명보트.py)
     * [단속 카메라](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/greedy/단속카메라.py)
+    * [섬 연결하기](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/greedy/섬연결하기.py)
+    * [저울](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/greedy/저울.py)
 7. DFS/BFS
     * [타겟 넘버](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/dfs-bfs/타겟넘버.py)
     * [네트워크](https://github.com/wwlee94/algorithm-python/blob/master/python/programmers/dfs-bfs/네트워크.py)
@@ -116,6 +118,9 @@
     * [행렬의 곱셈](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/행렬의곱셈.py)
     * [최소값 만들기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/최소값만들기.py)
     * [N개의 최소공배수](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-2/N개의최소공배수.py)
+
+3. LEVEL 3
+    * [가장 긴 팰린드롬](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-3/가장긴팰린드롬.py)
 
 ### 2020 카카오 코딩 테스트
 * [문자열 압축](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2020-KAKAO/LEVEL-2/문자열압축.py)

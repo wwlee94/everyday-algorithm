@@ -3,9 +3,10 @@
 https://programmers.co.kr/learn/courses/30/lessons/12907
 
 # 프로그래머스 LV3
+시간 더 단축 시킬 수 있는 풀이 찾기 !
 '''
 
-# table[y][x] => 0부터 y까지 화폐로 i원 내는 법
+# table[y][x] => 0부터 y까지 화폐로 x원 내는 법
 def solution(n, money):
     table = [[0 for _ in range(n+1)] for _ in range(len(money))]
     table[0][0] = 1

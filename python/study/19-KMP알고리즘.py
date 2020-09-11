@@ -24,6 +24,9 @@ a b a c a a b a
 6   abacaa        1
 7   abacaab       2
 8   abacaaba      3
+
+# 추가 참고 사이트
+- https://bowbowbow.tistory.com/6
 '''
 
 def make_table(pattern):

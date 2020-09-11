@@ -1,5 +1,5 @@
 '''
-* 🙆‍♂️ Created by wwlee94 on 2020.09.11
+* 🙆‍♂️ Created by wwlee94 on 2020.09.07
 https://programmers.co.kr/learn/courses/30/lessons/12927
 
 # 프로그래머스 LV3

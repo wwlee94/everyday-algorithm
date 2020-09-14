@@ -92,6 +92,8 @@
     * [알파벳](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/dfs-bfs/1987_알파벳.py)
 4. 플로이드 와샬
     * [플로이드](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/floyd-warshall/11404_플로이드.py)
+5. DP
+    * [퇴사](https://github.com/wwlee94/algorithm-python/blob/master/python/baekjoon/dp/14501_퇴사.py)
 
 ### 프로그래머스 연습문제
 1. LEVEL 1
@@ -124,6 +126,8 @@
     * [거스름돈](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-3/거스름돈.py)
     * [멀리 뛰기](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-3/멀리뛰기.py)
     * [야근 지수](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-3/야근지수.py)
+    * [최고의 집합](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-3/최고의집합.py)
+    * [줄서는 방법](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-3/줄서는방법.py)
 
 ### 2020 카카오 코딩 테스트
 * [문자열 압축](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2020-KAKAO/LEVEL-2/문자열압축.py)

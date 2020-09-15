@@ -128,6 +128,7 @@
     * [야근 지수](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-3/야근지수.py)
     * [최고의 집합](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-3/최고의집합.py)
     * [줄서는 방법](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-3/줄서는방법.py)
+    * [하노이의 탑](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/연습문제/LEVEL-3/하노이의탑.py)
 
 ### 2020 카카오 코딩 테스트
 * [문자열 압축](https://github.com/wwlee94/algorithm-python/blob/master/python/algorithm-test/2020-KAKAO/LEVEL-2/문자열압축.py)

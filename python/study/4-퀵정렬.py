@@ -45,11 +45,14 @@ swap(data, start, mid)
 data = [1, 10, 5, 8, 7, 6, 4, 3, 2, 9]
 size = len(data)
 
-
 def quick_sort(data, start, end):
     # 원소가 1개인 경우!
     if start >= end:
         return
+
+    # 개선 방법 !
+    # mid = (start + end) // 2;
+    # data[start], data[mid] = data[mid], data[start]
 
     pivot = start  # 키는 첫번째 원소
     i = start + 1  # 키 값의 오른쪽 !
@@ -66,10 +69,9 @@ def quick_sort(data, start, end):
         while (data[j] >= data[pivot]) and (j > start):
             j -= 1
 
-        # 현재 같거나 엇갈렸다면 키 값과 교체
-        if i >= j:
+        if i >= j: # 현재 같거나 엇갈렸다면 키 값과 교체
             data[pivot], data[j] = data[j], data[pivot]
-        else:
+        else: # 엇갈리지 않았다면 i와 j를 교체
             data[i], data[j] = data[j], data[i]
 
     quick_sort(data, start, j - 1)

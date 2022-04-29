@@ -69,10 +69,15 @@ def quick_sort(data, start, end):
         while (data[j] >= data[pivot]) and (j > start):
             j -= 1
 
+        print(data , i, j)
+
         if i >= j: # 현재 같거나 엇갈렸다면 키 값과 교체
             data[pivot], data[j] = data[j], data[pivot]
         else: # 엇갈리지 않았다면 i와 j를 교체
             data[i], data[j] = data[j], data[i]
+
+        print('변환')
+        print(data)
 
     quick_sort(data, start, j - 1)
     quick_sort(data, j + 1, end)
